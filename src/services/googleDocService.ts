@@ -1,27 +1,29 @@
-import { GOOGLE_PRIVATE_KEY, SHEET_ID } from '../constants/environment';
+import Context from 'telegraf/typings/context';
+import { SHEETS } from '../constants/constants';
+import { SHEET_ID } from '../constants/environment';
+import { createHeaders } from './createHeaders';
+import { parseMessage } from './parseMesssage';
 
-const postDataToGoogleSheet = async () => {
-  const range = 'Sheet2!B2:C2';
+const postDataToGoogleSheet = async (ctx: Context) => {
+  // const client = await auth.getClient();
+  await createHeaders();
+  if (ctx.message && 'text' in ctx.message) {
+    const message = ctx.message.text;
 
-  const url = `https://sheets.googleapis.com/v4/spreadsheets/${SHEET_ID}/values/${range}:append?valueInputOption=USER_ENTERED`;
+    const range = 'Sheet2!B2:C2';
+    const requestBody = {
+      range,
+      majorDimension: 'ROWS',
+      values: [parseMessage(message)],
+    };
 
-  const requestBody = {
-    range: range,
-    majorDimension: 'ROWS',
-    values: [['Hello', 'World']],
-  };
-  console.log(SHEET_ID);
-  const response = await fetch(url, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${GOOGLE_PRIVATE_KEY}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(requestBody),
-  });
-
-  const result = await response.json();
-  console.log(result);
+    const response = await SHEETS.spreadsheets.values.append({
+      spreadsheetId: SHEET_ID,
+      range,
+      valueInputOption: 'USER_ENTERED',
+      requestBody,
+    });
+  }
 };
-postDataToGoogleSheet();
+
 export { postDataToGoogleSheet };
