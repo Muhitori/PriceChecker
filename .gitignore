@@ -13,6 +13,7 @@
 .DS_Store
 .env*
 !.env-sample
+price-checker-439411-944a58b29d6b.json
 
 npm-debug.log*
 yarn-debug.log*
