@@ -14,9 +14,10 @@ const postDataToGoogleSheet = async (ctx: Context) => {
     const requestBody = {
       range,
       majorDimension: 'ROWS',
-      values: [parseMessage(message)],
+      values: parseMessage(message).map(
+        (value) => value,
+      ) as unknown as string[][],
     };
-
     const response = await SHEETS.spreadsheets.values.append({
       spreadsheetId: SHEET_ID,
       range,
