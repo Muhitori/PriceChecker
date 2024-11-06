@@ -6,10 +6,12 @@ export const parseMessage = (message: string): string[] => {
 
   let result: string[] = [];
   for (const [key, value] of Object.entries(messageToObj)) {
-    result.push(key);
+    let subRes = [];
+    subRes.push(key);
 
     if (Array.isArray(value)) {
-      result.push(value.join());
+      subRes.push(value.join(', '));
+      result.push(subRes as any);
     } else {
       console.warn(`Unexpected type for key "${key}"`);
     }
