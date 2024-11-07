@@ -1,8 +1,12 @@
-import { google } from 'googleapis';
+import {
+  GOOGLE_PRIVATE_KEY,
+  GOOGLE_SERVICE_ACCOUNT_EMAIL,
+} from '../constants/environment';
 
-import path = require('path');
+import { JWT } from 'google-auth-library';
 
-export const auth = new google.auth.GoogleAuth({
-  keyFile: path.join(__dirname, '../../price-checker-439411-944a58b29d6b.json'),
+export const auth = new JWT({
+  email: GOOGLE_SERVICE_ACCOUNT_EMAIL,
+  key: GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
   scopes: ['https://www.googleapis.com/auth/spreadsheets'],
 });

@@ -1,8 +1,5 @@
 export const parseMessage = (message: string): string[] => {
-  const messageToObj = JSON.parse(message.replace(/'/g, '"')) as Record<
-    string,
-    string[]
-  >;
+  const messageToObj = JSON.parse(message.replace(/'/g, '"'));
 
   let result: string[] = [];
   for (const [key, value] of Object.entries(messageToObj)) {
