@@ -11,6 +11,7 @@ const postDataToGoogleSheet = async (ctx: Context) => {
     const message = ctx.message.text;
 
     const range = 'Sheet2!B2:C2';
+
     const requestBody = {
       range,
       majorDimension: 'ROWS',
