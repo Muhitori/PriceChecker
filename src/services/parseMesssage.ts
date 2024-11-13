@@ -13,6 +13,5 @@ export const parseMessage = (message: string): string[] => {
       console.warn(`Unexpected type for key "${key}"`);
     }
   }
-
   return result;
 };
