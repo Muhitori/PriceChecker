@@ -3,7 +3,8 @@ import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { auth } from './auth';
 import axios from 'axios';
 
-import * as devices from '../../devices.json';
+import * as fs from 'fs';
+import * as path from 'path';
 
 const NAME_COLUMN = 'Артикул';
 const PRICE_COLUMN = 'Цена';
@@ -44,23 +45,32 @@ const autoResize = async (sheetId: string | number) => {
 
 export const setupTable = async () => {
   try {
-    const doc = new GoogleSpreadsheet(SHEET_ID!, auth);
-    await doc.loadInfo();
+    const filePath = path.join(__dirname, '..', 'articles.txt');
+    const data = fs.readFile(filePath, 'utf-8', async (err, data) => {
+      if (err) {
+        console.error('Error reading the file:', err);
+        return;
+      }
 
-    const sheet = doc.sheetsByIndex[0];
-    const sheetId = sheet.sheetId;
-    await sheet.clear();
+      const doc = new GoogleSpreadsheet(SHEET_ID!, auth);
+      await doc.loadInfo();
 
-    await sheet.setHeaderRow([NAME_COLUMN, PRICE_COLUMN]);
+      const sheet = doc.sheetsByIndex[0];
+      const sheetId = sheet.sheetId;
+      await sheet.clear();
 
-    const rows = Object.keys(devices).map((device) => ({
-      [NAME_COLUMN]: device,
-      [PRICE_COLUMN]: 0,
-    }));
+      await sheet.setHeaderRow([NAME_COLUMN, PRICE_COLUMN]);
 
-    await sheet.addRows(rows);
+      const articles = data.split('\n').map((row) => row.trim());
+      const rows = articles.map((article) => ({
+        [NAME_COLUMN]: article,
+        [PRICE_COLUMN]: 0,
+      }));
 
-    await autoResize(sheetId);
+      await sheet.addRows(rows);
+
+      await autoResize(sheetId);
+    });
   } catch (error) {
     if (error instanceof Error) {
       console.error('Error posting data to Google Sheet:', error.message);
@@ -76,16 +86,28 @@ export const postDataToGoogleSheet = async (data: Record<string, string>) => {
     await doc.loadInfo();
 
     const sheet = doc.sheetsByIndex[0];
-    const rows = await sheet.getRows();
+    const sheetId = sheet.sheetId;
 
-    for (const row of rows) {
+    const rows = await sheet.getRows();
+    await sheet.clear();
+
+    await sheet.setHeaderRow([NAME_COLUMN, PRICE_COLUMN]);
+
+    const updatedRows = rows.map((row) => {
+      const rawRow = row.toObject();
+
       Object.entries(data).forEach(([name, price]) => {
-        if (row.get(NAME_COLUMN) === name) {
-          row.set(PRICE_COLUMN, price);
-          row.save();
+        if (rawRow[NAME_COLUMN].toLowerCase() === name.toLowerCase()) {
+          rawRow[PRICE_COLUMN] = price;
         }
       });
-    }
+      return rawRow;
+    });
+
+    await sheet.addRows(updatedRows);
+
+    await autoResize(sheetId);
+    return sheetId;
   } catch (error) {
     if (error instanceof Error) {
       console.error('Error posting data to Google Sheet:', error.message);
