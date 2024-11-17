@@ -1,325 +1,927 @@
 {
-  "1200a": ["1200a"],
-  "1200a slim": ["1200a slim", "playstation slim"],
-  "airpods max blue": ["airpods max blue"],
-  "airpods max gray": ["airpods max gray"],
-  "airpods max green": ["airpods max green"],
-  "airpods max pink": ["airpods max pink"],
-  "airpods max silver": ["airpods max silver"],
-  "airpods 2": ["airpods 2"],
-  "airpods pro 2": ["airpods pro 2"],
-  "airpods pro 2021": ["airpods pro 2021"],
-  "dji air 2s": ["dji air 2s"],
-  "dji air 2s combo": ["dji air 2s combo"],
-  "dji air 3": ["dji air 3"],
-  "dji air 3 fly more combo rc-n2": ["dji air 3 fly more combo rc-n2"],
-  "dji air 3 fly more combo rc2": ["dji air 3 fly more combo rc2"],
-  "dji mavic 3 classic": ["dji mavic 3 classic"],
-  "dji mavic 3 classic rc": ["dji mavic 3 classic rc"],
-  "dji mavic 3 pro combo": ["dji mavic 3 pro combo"],
-  "dji mavic 3 pro combo rc pro": ["dji mavic 3 pro combo rc pro"],
-  "dji mavic 3 pro rc": ["dji mavic 3 pro rc"],
-  "dji mavic 3t": ["dji mavic 3t"],
-  "dji mini 2": ["dji mini 2"],
-  "dji mini 2 se fly more combo": ["dji mini 2 se fly more combo"],
-  "dji mini 3 fly more combo": ["dji mini 3 fly more combo"],
-  "dji mini 3 fly more combo rc": ["dji mini 3 fly more combo rc"],
-  "dji mini 3 pro": ["dji mini 3 pro"],
-  "dji mini 3 pro rc": ["dji mini 3 pro rc"],
-  "dji mini 4 fly more combo plus rc": ["dji mini 4 fly more combo plus rc"],
-  "dji mini 4 fly more combo rc": ["dji mini 4 fly more combo rc"],
-  "dji mini 4 pro": ["dji mini 4 pro"],
-  "dji mini 4 pro rc": ["dji mini 4 pro rc"],
-  "dji osmo pocket 3 combo": ["dji osmo pocket 3 combo"],
-  "gopro max 360": ["gopro max 360"],
-  "imac 24 256 green": ["imac 24 256 green"],
-  "imac 24 256 pink": ["imac 24 256 pink"],
-  "imac 24 256 yellow": ["imac 24 256 yellow"],
-  "ipad 10 (10.9) 256gb blue wifi": ["ipad 10 (10.9) 256gb blue wifi"],
-  "ipad 10 (10.9) 256gb pink wifi": ["ipad 10 (10.9) 256gb pink wifi"],
-  "ipad 10 (10.9) 256gb silver wifi": ["ipad 10 (10.9) 256gb silver wifi"],
-  "ipad 10 (10.9) 256gb yellow wifi": ["ipad 10 (10.9) 256gb yellow wifi"],
-  "ipad 10 (10.9) 64gb blue wifi": ["ipad 10 (10.9) 64gb blue wifi"],
-  "ipad 10 (10.9) 64gb pink wifi": ["ipad 10 (10.9) 64gb pink wifi"],
-  "ipad 10 (10.9) 64gb silver wifi": ["ipad 10 (10.9) 64gb silver wifi"],
-  "ipad 10 (10.9) 64gb yellow wifi": ["ipad 10 (10.9) 64gb yellow wifi"],
-  "ipad 9 (10.2 ) 256 silver (lte)": ["ipad 9 (10.2 ) 256 silver (lte)"],
-  "ipad 9 (10.2 ) 256 silver (wi-fi)": ["ipad 9 (10.2 ) 256 silver (wi-fi)"],
+  "1200a": [
+    "test",
+    "1200a"
+  ],
+  "1200a slim": [
+    "1200a slim",
+    "playstation slim"
+  ],
+  "airpods max blue": [
+    "airpods max blue"
+  ],
+  "airpods max gray": [
+    "airpods max gray"
+  ],
+  "airpods max green": [
+    "airpods max green"
+  ],
+  "airpods max pink": [
+    "airpods max pink"
+  ],
+  "airpods max silver": [
+    "airpods max silver"
+  ],
+  "airpods 2": [
+    "airpods 2"
+  ],
+  "airpods pro 2": [
+    "airpods pro 2"
+  ],
+  "airpods pro 2021": [
+    "airpods pro 2021"
+  ],
+  "dji air 2s": [
+    "dji air 2s"
+  ],
+  "dji air 2s combo": [
+    "dji air 2s combo"
+  ],
+  "dji air 3": [
+    "dji air 3"
+  ],
+  "dji air 3 fly more combo rc-n2": [
+    "dji air 3 fly more combo rc-n2"
+  ],
+  "dji air 3 fly more combo rc2": [
+    "dji air 3 fly more combo rc2"
+  ],
+  "dji mavic 3 classic": [
+    "dji mavic 3 classic"
+  ],
+  "dji mavic 3 classic rc": [
+    "dji mavic 3 classic rc"
+  ],
+  "dji mavic 3 pro combo": [
+    "dji mavic 3 pro combo"
+  ],
+  "dji mavic 3 pro combo rc pro": [
+    "dji mavic 3 pro combo rc pro"
+  ],
+  "dji mavic 3 pro rc": [
+    "dji mavic 3 pro rc"
+  ],
+  "dji mavic 3t": [
+    "dji mavic 3t"
+  ],
+  "dji mini 2": [
+    "dji mini 2"
+  ],
+  "dji mini 2 se fly more combo": [
+    "dji mini 2 se fly more combo"
+  ],
+  "dji mini 3 fly more combo": [
+    "dji mini 3 fly more combo"
+  ],
+  "dji mini 3 fly more combo rc": [
+    "dji mini 3 fly more combo rc"
+  ],
+  "dji mini 3 pro": [
+    "dji mini 3 pro"
+  ],
+  "dji mini 3 pro rc": [
+    "dji mini 3 pro rc"
+  ],
+  "dji mini 4 fly more combo plus rc": [
+    "dji mini 4 fly more combo plus rc"
+  ],
+  "dji mini 4 fly more combo rc": [
+    "dji mini 4 fly more combo rc"
+  ],
+  "dji mini 4 pro": [
+    "dji mini 4 pro"
+  ],
+  "dji mini 4 pro rc": [
+    "dji mini 4 pro rc"
+  ],
+  "dji osmo pocket 3 combo": [
+    "dji osmo pocket 3 combo"
+  ],
+  "gopro max 360": [
+    "gopro max 360"
+  ],
+  "imac 24 256 green": [
+    "imac 24 256 green"
+  ],
+  "imac 24 256 pink": [
+    "imac 24 256 pink"
+  ],
+  "imac 24 256 yellow": [
+    "imac 24 256 yellow"
+  ],
+  "ipad 10 (10.9) 256gb blue wifi": [
+    "ipad 10 (10.9) 256gb blue wifi"
+  ],
+  "ipad 10 (10.9) 256gb pink wifi": [
+    "ipad 10 (10.9) 256gb pink wifi"
+  ],
+  "ipad 10 (10.9) 256gb silver wifi": [
+    "ipad 10 (10.9) 256gb silver wifi"
+  ],
+  "ipad 10 (10.9) 256gb yellow wifi": [
+    "ipad 10 (10.9) 256gb yellow wifi"
+  ],
+  "ipad 10 (10.9) 64gb blue wifi": [
+    "ipad 10 (10.9) 64gb blue wifi"
+  ],
+  "ipad 10 (10.9) 64gb pink wifi": [
+    "ipad 10 (10.9) 64gb pink wifi"
+  ],
+  "ipad 10 (10.9) 64gb silver wifi": [
+    "ipad 10 (10.9) 64gb silver wifi"
+  ],
+  "ipad 10 (10.9) 64gb yellow wifi": [
+    "ipad 10 (10.9) 64gb yellow wifi"
+  ],
+  "ipad 9 (10.2 ) 256 silver (lte)": [
+    "ipad 9 (10.2 ) 256 silver (lte)"
+  ],
+  "ipad 9 (10.2 ) 256 silver (wi-fi)": [
+    "ipad 9 (10.2 ) 256 silver (wi-fi)"
+  ],
   "ipad 9 (10.2 ) 256 space gray (lte)": [
     "ipad 9 (10.2 ) 256 space gray (lte)"
   ],
   "ipad 9 (10.2 ) 256 space gray (wi-fi)": [
     "ipad 9 (10.2 ) 256 space gray (wi-fi)"
   ],
-  "ipad 9 (10.2 ) 64 silver (lte)": ["ipad 9 (10.2 ) 64 silver (lte)"],
-  "ipad 9 (10.2 ) 64 silver (wi-fi)": ["ipad 9 (10.2 ) 64 silver (wi-fi)"],
-  "ipad 9 (10.2 ) 64 space gray (lte)": ["ipad 9 (10.2 ) 64 space gray (lte)"],
-  "ipad air (10.9) 256 blue wifi": ["ipad air (10.9) 256 blue wifi"],
-  "ipad air (10.9) 256 pink wifi": ["ipad air (10.9) 256 pink wifi"],
-  "ipad air (10.9) 256 purple wifi": ["ipad air (10.9) 256 purple wifi"],
+  "ipad 9 (10.2 ) 64 silver (lte)": [
+    "ipad 9 (10.2 ) 64 silver (lte)"
+  ],
+  "ipad 9 (10.2 ) 64 silver (wi-fi)": [
+    "ipad 9 (10.2 ) 64 silver (wi-fi)"
+  ],
+  "ipad 9 (10.2 ) 64 space gray (lte)": [
+    "ipad 9 (10.2 ) 64 space gray (lte)"
+  ],
+  "ipad air (10.9) 256 blue wifi": [
+    "ipad air (10.9) 256 blue wifi"
+  ],
+  "ipad air (10.9) 256 pink wifi": [
+    "ipad air (10.9) 256 pink wifi"
+  ],
+  "ipad air (10.9) 256 purple wifi": [
+    "ipad air (10.9) 256 purple wifi"
+  ],
   "ipad air (10.9) 256 space gray wifi": [
     "ipad air (10.9) 256 space gray wifi"
   ],
-  "ipad air (10.9) 256 starlight wifi": ["ipad air (10.9) 256 starlight wifi"],
-  "ipad air (10.9) 64 blue wifi": ["ipad air (10.9) 64 blue wifi"],
-  "ipad air (10.9) 64 pink wifi": ["ipad air (10.9) 64 pink wifi"],
-  "ipad air (10.9) 64 purple wifi": ["ipad air (10.9) 64 purple wifi"],
-  "ipad air (10.9) 64 space gray wifi": ["ipad air (10.9) 64 space gray wifi"],
-  "ipad air (10.9) 64 starlight wifi": ["ipad air (10.9) 64 starlight wifi"],
-  "ipad air (11) m2 128 blue wifi": ["ipad air (11) m2 128 blue wifi"],
-  "ipad air (11) m2 128 purple wifi": ["ipad air (11) m2 128 purple wifi"],
+  "ipad air (10.9) 256 starlight wifi": [
+    "ipad air (10.9) 256 starlight wifi"
+  ],
+  "ipad air (10.9) 64 blue wifi": [
+    "ipad air (10.9) 64 blue wifi"
+  ],
+  "ipad air (10.9) 64 pink wifi": [
+    "ipad air (10.9) 64 pink wifi"
+  ],
+  "ipad air (10.9) 64 purple wifi": [
+    "ipad air (10.9) 64 purple wifi"
+  ],
+  "ipad air (10.9) 64 space gray wifi": [
+    "ipad air (10.9) 64 space gray wifi"
+  ],
+  "ipad air (10.9) 64 starlight wifi": [
+    "ipad air (10.9) 64 starlight wifi"
+  ],
+  "ipad air (11) m2 128 blue wifi": [
+    "ipad air (11) m2 128 blue wifi"
+  ],
+  "ipad air (11) m2 128 purple wifi": [
+    "ipad air (11) m2 128 purple wifi"
+  ],
   "ipad air (11) m2 128 space gray wifi": [
     "ipad air (11) m2 128 space gray wifi"
   ],
   "ipad air (11) m2 128 starlight wifi": [
     "ipad air (11) m2 128 starlight wifi"
   ],
-  "ipad air (11) m2 256 blue wifi": ["ipad air (11) m2 256 blue wifi"],
-  "ipad air (11) m2 256 purple wifi": ["ipad air (11) m2 256 purple wifi"],
+  "ipad air (11) m2 256 blue wifi": [
+    "ipad air (11) m2 256 blue wifi"
+  ],
+  "ipad air (11) m2 256 purple wifi": [
+    "ipad air (11) m2 256 purple wifi"
+  ],
   "ipad air (11) m2 256 space gray wifi": [
     "ipad air (11) m2 256 space gray wifi"
   ],
   "ipad air (11) m2 256 starlight wifi": [
     "ipad air (11) m2 256 starlight wifi"
   ],
-  "ipad mini 6 256 gray wi-fi": ["ipad mini 6 256 gray wi-fi"],
-  "ipad mini 6 256 pink wi-fi": ["ipad mini 6 256 pink wi-fi"],
-  "ipad mini 6 256 purple wi-fi": ["ipad mini 6 256 purple wi-fi"],
-  "ipad mini 6 256 starlight wi-fi": ["ipad mini 6 256 starlight wi-fi"],
-  "ipad mini 6 64 gray wi-fi": ["ipad mini 6 64 gray wi-fi"],
-  "ipad mini 6 64 pink wi-fi": ["ipad mini 6 64 pink wi-fi"],
-  "ipad mini 6 64 purple wi-fi": ["ipad mini 6 64 purple wi-fi"],
-  "ipad mini 6 64 starlight wi-fi": ["ipad mini 6 64 starlight wi-fi"],
-  "iphone 11 128gb black": ["iphone 11 128gb black"],
-  "iphone 11 128gb green": ["iphone 11 128gb green"],
-  "iphone 11 128gb purple": ["iphone 11 128gb purple"],
-  "iphone 11 128gb red": ["iphone 11 128gb red"],
-  "iphone 11 128gb white": ["iphone 11 128gb white"],
-  "iphone 11 128gb yellow": ["iphone 11 128gb yellow"],
-  "iphone 11 256gb black": ["iphone 11 256gb black"],
-  "iphone 11 256gb green": ["iphone 11 256gb green"],
-  "iphone 11 256gb purple": ["iphone 11 256gb purple"],
-  "iphone 11 256gb red": ["iphone 11 256gb red"],
-  "iphone 11 256gb white": ["iphone 11 256gb white"],
-  "iphone 11 256gb yellow": ["iphone 11 256gb yellow"],
-  "iphone 11 64gb black": ["iphone 11 64gb black"],
-  "iphone 11 64gb green": ["iphone 11 64gb green"],
-  "iphone 11 64gb purple": ["iphone 11 64gb purple"],
-  "iphone 11 64gb red": ["iphone 11 64gb red"],
-  "iphone 11 64gb white": ["iphone 11 64gb white"],
-  "iphone 11 64gb yellow": ["iphone 11 64gb yellow"],
-  "iphone 12 128gb black": ["iphone 12 128gb black"],
-  "iphone 12 128gb blue": ["iphone 12 128gb blue"],
-  "iphone 12 128gb green": ["iphone 12 128gb green"],
-  "iphone 12 128gb purple": ["iphone 12 128gb purple"],
-  "iphone 12 128gb red": ["iphone 12 128gb red"],
-  "iphone 12 128gb white": ["iphone 12 128gb white"],
-  "iphone 12 256gb black": ["iphone 12 256gb black"],
-  "iphone 12 256gb blue": ["iphone 12 256gb blue"],
-  "iphone 12 256gb green": ["iphone 12 256gb green"],
-  "iphone 12 256gb purple": ["iphone 12 256gb purple"],
-  "iphone 12 256gb red": ["iphone 12 256gb red"],
-  "iphone 12 256gb white": ["iphone 12 256gb white"],
-  "iphone 12 64gb black": ["iphone 12 64gb black"],
-  "iphone 12 64gb blue": ["iphone 12 64gb blue"],
-  "iphone 12 64gb green": ["iphone 12 64gb green"],
-  "iphone 12 64gb purple": ["iphone 12 64gb purple"],
-  "iphone 12 64gb red": ["iphone 12 64gb red"],
-  "iphone 12 64gb white": ["iphone 12 64gb white"],
-  "iphone 12 mini 128gb black": ["iphone 12 mini 128gb black"],
-  "iphone 12 mini 128gb blue": ["iphone 12 mini 128gb blue"],
-  "iphone 12 mini 128gb green": ["iphone 12 mini 128gb green"],
-  "iphone 12 mini 128gb purple": ["iphone 12 mini 128gb purple"],
-  "iphone 12 mini 128gb red": ["iphone 12 mini 128gb red"],
-  "iphone 12 mini 128gb white": ["iphone 12 mini 128gb white"],
-  "iphone 12 mini 256gb black": ["iphone 12 mini 256gb black"],
-  "iphone 12 mini 256gb blue": ["iphone 12 mini 256gb blue"],
-  "iphone 12 mini 256gb green": ["iphone 12 mini 256gb green"],
-  "iphone 12 mini 256gb purple": ["iphone 12 mini 256gb purple"],
-  "iphone 12 mini 256gb red": ["iphone 12 mini 256gb red"],
-  "iphone 12 mini 256gb white": ["iphone 12 mini 256gb white"],
-  "iphone 12 mini 64gb black": ["iphone 12 mini 64gb black"],
-  "iphone 12 mini 64gb blue": ["iphone 12 mini 64gb blue"],
-  "iphone 12 mini 64gb green": ["iphone 12 mini 64gb green"],
-  "iphone 12 mini 64gb purple": ["iphone 12 mini 64gb purple"],
-  "iphone 12 mini 64gb red": ["iphone 12 mini 64gb red"],
-  "iphone 12 mini 64gb white": ["iphone 12 mini 64gb white"],
-  "iphone 13 128gb black": ["iphone 13 128gb black"],
-  "iphone 13 128gb blue": ["iphone 13 128gb blue"],
-  "iphone 13 128gb green": ["iphone 13 128gb green"],
-  "iphone 13 128gb red": ["iphone 13 128gb red"],
-  "iphone 13 128gb rose": ["iphone 13 128gb rose"],
-  "iphone 13 128gb white": ["iphone 13 128gb white"],
-  "iphone 13 256gb black": ["iphone 13 256gb black"],
-  "iphone 13 256gb blue": ["iphone 13 256gb blue"],
-  "iphone 13 256gb green": ["iphone 13 256gb green"],
-  "iphone 13 256gb red": ["iphone 13 256gb red"],
-  "iphone 13 256gb rose": ["iphone 13 256gb rose"],
-  "iphone 13 256gb white": ["iphone 13 256gb white"],
-  "iphone 13 512gb black": ["iphone 13 512gb black"],
-  "iphone 13 512gb blue": ["iphone 13 512gb blue"],
-  "iphone 13 512gb green": ["iphone 13 512gb green"],
-  "iphone 13 512gb red": ["iphone 13 512gb red"],
-  "iphone 13 512gb rose": ["iphone 13 512gb rose"],
-  "iphone 13 512gb white": ["iphone 13 512gb white"],
-  "iphone 13 mini 128gb black": ["iphone 13 mini 128gb black"],
-  "iphone 13 mini 128gb blue": ["iphone 13 mini 128gb blue"],
-  "iphone 13 mini 128gb green": ["iphone 13 mini 128gb green"],
-  "iphone 13 mini 128gb red": ["iphone 13 mini 128gb red"],
-  "iphone 13 mini 128gb rose": ["iphone 13 mini 128gb rose"],
-  "iphone 13 mini 128gb white": ["iphone 13 mini 128gb white"],
-  "iphone 13 mini 256gb black": ["iphone 13 mini 256gb black"],
-  "iphone 13 mini 256gb blue": ["iphone 13 mini 256gb blue"],
-  "iphone 13 mini 256gb green": ["iphone 13 mini 256gb green"],
-  "iphone 13 mini 256gb red": ["iphone 13 mini 256gb red"],
-  "iphone 13 mini 256gb rose": ["iphone 13 mini 256gb rose"],
-  "iphone 13 mini 256gb white": ["iphone 13 mini 256gb white"],
-  "iphone 13 mini 512gb black": ["iphone 13 mini 512gb black"],
-  "iphone 13 mini 512gb blue": ["iphone 13 mini 512gb blue"],
-  "iphone 13 mini 512gb green": ["iphone 13 mini 512gb green"],
-  "iphone 13 mini 512gb red": ["iphone 13 mini 512gb red"],
-  "iphone 13 mini 512gb rose": ["iphone 13 mini 512gb rose"],
-  "iphone 13 mini 512gb white": ["iphone 13 mini 512gb white"],
-  "iphone 14 128gb black": ["iphone 14 128gb black"],
-  "iphone 14 128gb blue": ["iphone 14 128gb blue"],
-  "iphone 14 128gb purple": ["iphone 14 128gb purple"],
-  "iphone 14 128gb red": ["iphone 14 128gb red"],
-  "iphone 14 128gb white": ["iphone 14 128gb white"],
-  "iphone 14 128gb yellow": ["iphone 14 128gb yellow"],
-  "iphone 14 256gb black": ["iphone 14 256gb black"],
-  "iphone 14 256gb blue": ["iphone 14 256gb blue"],
-  "iphone 14 256gb purple": ["iphone 14 256gb purple"],
-  "iphone 14 256gb red": ["iphone 14 256gb red"],
-  "iphone 14 256gb white": ["iphone 14 256gb white"],
-  "iphone 14 256gb yellow": ["iphone 14 256gb yellow"],
-  "iphone 14 512gb black": ["iphone 14 512gb black"],
-  "iphone 14 512gb blue": ["iphone 14 512gb blue"],
-  "iphone 14 512gb purple": ["iphone 14 512gb purple"],
-  "iphone 14 512gb red": ["iphone 14 512gb red"],
-  "iphone 14 512gb white": ["iphone 14 512gb white"],
-  "iphone 14 plus 128 black": ["iphone 14 plus 128 black"],
-  "iphone 14 plus 128 blue": ["iphone 14 plus 128 blue"],
-  "iphone 14 plus 128 purple": ["iphone 14 plus 128 purple"],
-  "iphone 14 plus 128 red": ["iphone 14 plus 128 red"],
-  "iphone 14 plus 128 white": ["iphone 14 plus 128 white"],
-  "iphone 14 plus 256 black": ["iphone 14 plus 256 black"],
-  "iphone 14 plus 256 blue": ["iphone 14 plus 256 blue"],
-  "iphone 14 plus 256 purple": ["iphone 14 plus 256 purple"],
-  "iphone 14 plus 256 red": ["iphone 14 plus 256 red"],
-  "iphone 14 plus 256 white": ["iphone 14 plus 256 white"],
-  "iphone 14 plus 512 black": ["iphone 14 plus 512 black"],
-  "iphone 14 plus 512 blue": ["iphone 14 plus 512 blue"],
-  "iphone 14 plus 512 purple": ["iphone 14 plus 512 purple"],
-  "iphone 14 plus 512 red": ["iphone 14 plus 512 red"],
-  "iphone 14 plus 512 white": ["iphone 14 plus 512 white"],
-  "iphone 14 plus 512 yellow": ["iphone 14 plus 512 yellow"],
-  "iphone 14 pro 1 tb graphite": ["iphone 14 pro 1 tb graphite"],
-  "iphone 14 pro 1 tb silver": ["iphone 14 pro 1 tb silver"],
-  "iphone 14 pro 128 gold": ["iphone 14 pro 128 gold"],
-  "iphone 14 pro 128 graphite": ["iphone 14 pro 128 graphite"],
-  "iphone 14 pro 128 purple": ["iphone 14 pro 128 purple"],
-  "iphone 14 pro 128 silver": ["iphone 14 pro 128 silver"],
-  "iphone 14 pro 1tb gold": ["iphone 14 pro 1tb gold"],
-  "iphone 14 pro 1tb purple": ["iphone 14 pro 1tb purple"],
-  "iphone 14 pro 256 gold": ["iphone 14 pro 256 gold"],
-  "iphone 14 pro 256 graphite": ["iphone 14 pro 256 graphite"],
-  "iphone 14 pro 256 purple": ["iphone 14 pro 256 purple"],
-  "iphone 14 pro 256 silver": ["iphone 14 pro 256 silver"],
-  "iphone 14 pro 512 gold": ["iphone 14 pro 512 gold"],
-  "iphone 14 pro 512 graphite": ["iphone 14 pro 512 graphite"],
-  "iphone 14 pro 512 purple": ["iphone 14 pro 512 purple"],
-  "iphone 14 pro 512 silver": ["iphone 14 pro 512 silver"],
-  "iphone 14 pro max 128 gold": ["iphone 14 pro max 128 gold"],
-  "iphone 14 pro max 128 graphite": ["iphone 14 pro max 128 graphite"],
-  "iphone 14 pro max 128 purple": ["iphone 14 pro max 128 purple"],
-  "iphone 14 pro max 128 silver": ["iphone 14 pro max 128 silver"],
-  "iphone 14 pro max 1tb gold": ["iphone 14 pro max 1tb gold"],
-  "iphone 14 pro max 1tb graphite": ["iphone 14 pro max 1tb graphite"],
-  "iphone 14 pro max 1tb purple": ["iphone 14 pro max 1tb purple"],
-  "iphone 14 pro max 1tb silver": ["iphone 14 pro max 1tb silver"],
-  "iphone 14 pro max 256 gold": ["iphone 14 pro max 256 gold"],
-  "iphone 14 pro max 256 graphite": ["iphone 14 pro max 256 graphite"],
-  "iphone 14 pro max 256 purple": ["iphone 14 pro max 256 purple"],
-  "iphone 14 pro max 256 silver": ["iphone 14 pro max 256 silver"],
-  "iphone 14 pro max 512 gold": ["iphone 14 pro max 512 gold"],
-  "iphone 14 pro max 512 graphite": ["iphone 14 pro max 512 graphite"],
-  "iphone 14 pro max 512 purple": ["iphone 14 pro max 512 purple"],
-  "iphone 14 pro max 512 silver": ["iphone 14 pro max 512 silver"],
-  "iphone 15 128 black": ["iphone 15 128 black"],
-  "iphone 15 128 blue": ["iphone 15 128 blue"],
-  "iphone 15 128 green": ["iphone 15 128 green"],
-  "iphone 15 128 pink": ["iphone 15 128 pink"],
-  "iphone 15 128 yellow": ["iphone 15 128 yellow"],
-  "iphone 15 256 black": ["iphone 15 256 black"],
-  "iphone 15 256 blue": ["iphone 15 256 blue"],
-  "iphone 15 256 green": ["iphone 15 256 green"],
-  "iphone 15 256 pink": ["iphone 15 256 pink"],
-  "iphone 15 256 yellow": ["iphone 15 256 yellow"],
-  "iphone 15 512 black": ["iphone 15 512 black"],
-  "iphone 15 512 blue": ["iphone 15 512 blue"],
-  "iphone 15 512 green": ["iphone 15 512 green"],
-  "iphone 15 512 pink": ["iphone 15 512 pink"],
-  "iphone 15 512 yellow": ["iphone 15 512 yellow"],
-  "iphone 15 plus 128 black": ["iphone 15 plus 128 black"],
-  "iphone 15 plus 128 blue": ["iphone 15 plus 128 blue"],
-  "iphone 15 plus 128 green": ["iphone 15 plus 128 green"],
-  "iphone 15 plus 128 pink": ["iphone 15 plus 128 pink"],
-  "iphone 15 plus 128 yellow": ["iphone 15 plus 128 yellow"],
-  "iphone 15 plus 256 black": ["iphone 15 plus 256 black"],
-  "iphone 15 plus 256 blue": ["iphone 15 plus 256 blue"],
-  "iphone 15 plus 256 green": ["iphone 15 plus 256 green"],
-  "iphone 15 plus 256 pink": ["iphone 15 plus 256 pink"],
-  "iphone 15 plus 256 yellow": ["iphone 15 plus 256 yellow"],
-  "iphone 15 plus 512 black": ["iphone 15 plus 512 black"],
-  "iphone 15 plus 512 blue": ["iphone 15 plus 512 blue"],
-  "iphone 15 plus 512 green": ["iphone 15 plus 512 green"],
-  "iphone 15 plus 512 pink": ["iphone 15 plus 512 pink"],
-  "iphone 15 plus 512 yellow": ["iphone 15 plus 512 yellow"],
-  "iphone 15 pro 128 black": ["iphone 15 pro 128 black"],
-  "iphone 15 pro 128 blue": ["iphone 15 pro 128 blue"],
-  "iphone 15 pro 128 natural": ["iphone 15 pro 128 natural"],
-  "iphone 15 pro 128 white": ["iphone 15 pro 128 white"],
-  "iphone 15 pro 1tb black": ["iphone 15 pro 1tb black"],
-  "iphone 15 pro 1tb blue": ["iphone 15 pro 1tb blue"],
-  "iphone 15 pro 1tb natural": ["iphone 15 pro 1tb natural"],
-  "iphone 15 pro 1tb white": ["iphone 15 pro 1tb white"],
-  "iphone 15 pro 256 black": ["iphone 15 pro 256 black"],
-  "iphone 15 pro 256 blue": ["iphone 15 pro 256 blue"],
-  "iphone 15 pro 256 natural": ["iphone 15 pro 256 natural"],
-  "iphone 15 pro 256 white": ["iphone 15 pro 256 white"],
-  "iphone 15 pro 512 black": ["iphone 15 pro 512 black"],
-  "iphone 15 pro 512 blue": ["iphone 15 pro 512 blue"],
-  "iphone 15 pro 512 natural": ["iphone 15 pro 512 natural"],
-  "iphone 15 pro 512 white": ["iphone 15 pro 512 white"],
-  "iphone 15 pro max 1tb black": ["iphone 15 pro max 1tb black"],
-  "iphone 15 pro max 1tb blue": ["iphone 15 pro max 1tb blue"],
-  "iphone 15 pro max 1tb natural": ["iphone 15 pro max 1tb natural"],
-  "iphone 15 pro max 1tb white": ["iphone 15 pro max 1tb white"],
-  "iphone 15 pro max 256 black": ["iphone 15 pro max 256 black"],
-  "iphone 15 pro max 256 blue": ["iphone 15 pro max 256 blue"],
-  "iphone 15 pro max 256 natural": ["iphone 15 pro max 256 natural"],
-  "iphone 15 pro max 256 white": ["iphone 15 pro max 256 white"],
-  "iphone 15 pro max 512 black": ["iphone 15 pro max 512 black"],
-  "iphone 15 pro max 512 blue": ["iphone 15 pro max 512 blue"],
-  "iphone 15 pro max 512 natural": ["iphone 15 pro max 512 natural"],
-  "iphone 15 pro max 512 white": ["iphone 15 pro max 512 white"],
-  "iphone se 2022 128 black": ["iphone se 2022 128 black"],
-  "iphone se 2022 128 red": ["iphone se 2022 128 red"],
-  "iphone se 2022 128 white": ["iphone se 2022 128 white"],
-  "iphone se 2022 256 black": ["iphone se 2022 256 black"],
-  "iphone se 2022 256 red": ["iphone se 2022 256 red"],
-  "iphone se 2022 256 white": ["iphone se 2022 256 white"],
-  "iphone se 2022 64 black": ["iphone se 2022 64 black"],
-  "iphone se 2022 64 red": ["iphone se 2022 64 red"],
-  "iphone se 2022 64 white": ["iphone se 2022 64 white"],
-  "macbook air 15 m2 256gb midnight": ["macbook air 15 m2 256gb midnight"],
-  "macbook air 15 m2 256gb silver": ["macbook air 15 m2 256gb silver"],
-  "macbook air 15 m2 256gb space gray": ["macbook air 15 m2 256gb space gray"],
-  "macbook air 15 m2 256gb starlight": ["macbook air 15 m2 256gb starlight"],
-  "macbook air 15 m2 512gb midnight": ["macbook air 15 m2 512gb midnight"],
-  "macbook air 15 m2 512gb silver": ["macbook air 15 m2 512gb silver"],
-  "macbook air 15 m2 512gb space gray": ["macbook air 15 m2 512gb space gray"],
-  "macbook air 15 m2 512gb starlight": ["macbook air 15 m2 512gb starlight"],
+  "ipad mini 6 256 gray wi-fi": [
+    "ipad mini 6 256 gray wi-fi"
+  ],
+  "ipad mini 6 256 pink wi-fi": [
+    "ipad mini 6 256 pink wi-fi"
+  ],
+  "ipad mini 6 256 purple wi-fi": [
+    "ipad mini 6 256 purple wi-fi"
+  ],
+  "ipad mini 6 256 starlight wi-fi": [
+    "ipad mini 6 256 starlight wi-fi"
+  ],
+  "ipad mini 6 64 gray wi-fi": [
+    "ipad mini 6 64 gray wi-fi"
+  ],
+  "ipad mini 6 64 pink wi-fi": [
+    "ipad mini 6 64 pink wi-fi"
+  ],
+  "ipad mini 6 64 purple wi-fi": [
+    "ipad mini 6 64 purple wi-fi"
+  ],
+  "ipad mini 6 64 starlight wi-fi": [
+    "ipad mini 6 64 starlight wi-fi"
+  ],
+  "iphone 11 128gb black": [
+    "iphone 11 128gb black"
+  ],
+  "iphone 11 128gb green": [
+    "iphone 11 128gb green"
+  ],
+  "iphone 11 128gb purple": [
+    "iphone 11 128gb purple"
+  ],
+  "iphone 11 128gb red": [
+    "iphone 11 128gb red"
+  ],
+  "iphone 11 128gb white": [
+    "iphone 11 128gb white"
+  ],
+  "iphone 11 128gb yellow": [
+    "iphone 11 128gb yellow"
+  ],
+  "iphone 11 256gb black": [
+    "iphone 11 256gb black"
+  ],
+  "iphone 11 256gb green": [
+    "iphone 11 256gb green"
+  ],
+  "iphone 11 256gb purple": [
+    "iphone 11 256gb purple"
+  ],
+  "iphone 11 256gb red": [
+    "iphone 11 256gb red"
+  ],
+  "iphone 11 256gb white": [
+    "iphone 11 256gb white"
+  ],
+  "iphone 11 256gb yellow": [
+    "iphone 11 256gb yellow"
+  ],
+  "iphone 11 64gb black": [
+    "iphone 11 64gb black"
+  ],
+  "iphone 11 64gb green": [
+    "iphone 11 64gb green"
+  ],
+  "iphone 11 64gb purple": [
+    "iphone 11 64gb purple"
+  ],
+  "iphone 11 64gb red": [
+    "iphone 11 64gb red"
+  ],
+  "iphone 11 64gb white": [
+    "iphone 11 64gb white"
+  ],
+  "iphone 11 64gb yellow": [
+    "iphone 11 64gb yellow"
+  ],
+  "iphone 12 128gb black": [
+    "iphone 12 128gb black"
+  ],
+  "iphone 12 128gb blue": [
+    "iphone 12 128gb blue"
+  ],
+  "iphone 12 128gb green": [
+    "iphone 12 128gb green"
+  ],
+  "iphone 12 128gb purple": [
+    "iphone 12 128gb purple"
+  ],
+  "iphone 12 128gb red": [
+    "iphone 12 128gb red"
+  ],
+  "iphone 12 128gb white": [
+    "iphone 12 128gb white"
+  ],
+  "iphone 12 256gb black": [
+    "iphone 12 256gb black"
+  ],
+  "iphone 12 256gb blue": [
+    "iphone 12 256gb blue"
+  ],
+  "iphone 12 256gb green": [
+    "iphone 12 256gb green"
+  ],
+  "iphone 12 256gb purple": [
+    "iphone 12 256gb purple"
+  ],
+  "iphone 12 256gb red": [
+    "iphone 12 256gb red"
+  ],
+  "iphone 12 256gb white": [
+    "iphone 12 256gb white"
+  ],
+  "iphone 12 64gb black": [
+    "iphone 12 64gb black"
+  ],
+  "iphone 12 64gb blue": [
+    "iphone 12 64gb blue"
+  ],
+  "iphone 12 64gb green": [
+    "iphone 12 64gb green"
+  ],
+  "iphone 12 64gb purple": [
+    "iphone 12 64gb purple"
+  ],
+  "iphone 12 64gb red": [
+    "iphone 12 64gb red"
+  ],
+  "iphone 12 64gb white": [
+    "iphone 12 64gb white"
+  ],
+  "iphone 12 mini 128gb black": [
+    "iphone 12 mini 128gb black"
+  ],
+  "iphone 12 mini 128gb blue": [
+    "iphone 12 mini 128gb blue"
+  ],
+  "iphone 12 mini 128gb green": [
+    "iphone 12 mini 128gb green"
+  ],
+  "iphone 12 mini 128gb purple": [
+    "iphone 12 mini 128gb purple"
+  ],
+  "iphone 12 mini 128gb red": [
+    "iphone 12 mini 128gb red"
+  ],
+  "iphone 12 mini 128gb white": [
+    "iphone 12 mini 128gb white"
+  ],
+  "iphone 12 mini 256gb black": [
+    "iphone 12 mini 256gb black"
+  ],
+  "iphone 12 mini 256gb blue": [
+    "iphone 12 mini 256gb blue"
+  ],
+  "iphone 12 mini 256gb green": [
+    "iphone 12 mini 256gb green"
+  ],
+  "iphone 12 mini 256gb purple": [
+    "iphone 12 mini 256gb purple"
+  ],
+  "iphone 12 mini 256gb red": [
+    "iphone 12 mini 256gb red"
+  ],
+  "iphone 12 mini 256gb white": [
+    "iphone 12 mini 256gb white"
+  ],
+  "iphone 12 mini 64gb black": [
+    "iphone 12 mini 64gb black"
+  ],
+  "iphone 12 mini 64gb blue": [
+    "iphone 12 mini 64gb blue"
+  ],
+  "iphone 12 mini 64gb green": [
+    "iphone 12 mini 64gb green"
+  ],
+  "iphone 12 mini 64gb purple": [
+    "iphone 12 mini 64gb purple"
+  ],
+  "iphone 12 mini 64gb red": [
+    "iphone 12 mini 64gb red"
+  ],
+  "iphone 12 mini 64gb white": [
+    "iphone 12 mini 64gb white"
+  ],
+  "iphone 13 128gb black": [
+    "iphone 13 128gb black"
+  ],
+  "iphone 13 128gb blue": [
+    "iphone 13 128gb blue"
+  ],
+  "iphone 13 128gb green": [
+    "iphone 13 128gb green"
+  ],
+  "iphone 13 128gb red": [
+    "iphone 13 128gb red"
+  ],
+  "iphone 13 128gb rose": [
+    "iphone 13 128gb rose"
+  ],
+  "iphone 13 128gb white": [
+    "iphone 13 128gb white"
+  ],
+  "iphone 13 256gb black": [
+    "iphone 13 256gb black"
+  ],
+  "iphone 13 256gb blue": [
+    "iphone 13 256gb blue"
+  ],
+  "iphone 13 256gb green": [
+    "iphone 13 256gb green"
+  ],
+  "iphone 13 256gb red": [
+    "iphone 13 256gb red"
+  ],
+  "iphone 13 256gb rose": [
+    "iphone 13 256gb rose"
+  ],
+  "iphone 13 256gb white": [
+    "iphone 13 256gb white"
+  ],
+  "iphone 13 512gb black": [
+    "iphone 13 512gb black"
+  ],
+  "iphone 13 512gb blue": [
+    "iphone 13 512gb blue"
+  ],
+  "iphone 13 512gb green": [
+    "iphone 13 512gb green"
+  ],
+  "iphone 13 512gb red": [
+    "iphone 13 512gb red"
+  ],
+  "iphone 13 512gb rose": [
+    "iphone 13 512gb rose"
+  ],
+  "iphone 13 512gb white": [
+    "iphone 13 512gb white"
+  ],
+  "iphone 13 mini 128gb black": [
+    "iphone 13 mini 128gb black"
+  ],
+  "iphone 13 mini 128gb blue": [
+    "iphone 13 mini 128gb blue"
+  ],
+  "iphone 13 mini 128gb green": [
+    "iphone 13 mini 128gb green"
+  ],
+  "iphone 13 mini 128gb red": [
+    "iphone 13 mini 128gb red"
+  ],
+  "iphone 13 mini 128gb rose": [
+    "iphone 13 mini 128gb rose"
+  ],
+  "iphone 13 mini 128gb white": [
+    "iphone 13 mini 128gb white"
+  ],
+  "iphone 13 mini 256gb black": [
+    "iphone 13 mini 256gb black"
+  ],
+  "iphone 13 mini 256gb blue": [
+    "iphone 13 mini 256gb blue"
+  ],
+  "iphone 13 mini 256gb green": [
+    "iphone 13 mini 256gb green"
+  ],
+  "iphone 13 mini 256gb red": [
+    "iphone 13 mini 256gb red"
+  ],
+  "iphone 13 mini 256gb rose": [
+    "iphone 13 mini 256gb rose"
+  ],
+  "iphone 13 mini 256gb white": [
+    "iphone 13 mini 256gb white"
+  ],
+  "iphone 13 mini 512gb black": [
+    "iphone 13 mini 512gb black"
+  ],
+  "iphone 13 mini 512gb blue": [
+    "iphone 13 mini 512gb blue"
+  ],
+  "iphone 13 mini 512gb green": [
+    "iphone 13 mini 512gb green"
+  ],
+  "iphone 13 mini 512gb red": [
+    "iphone 13 mini 512gb red"
+  ],
+  "iphone 13 mini 512gb rose": [
+    "iphone 13 mini 512gb rose"
+  ],
+  "iphone 13 mini 512gb white": [
+    "iphone 13 mini 512gb white"
+  ],
+  "iphone 14 128gb black": [
+    "iphone 14 128gb black"
+  ],
+  "iphone 14 128gb blue": [
+    "iphone 14 128gb blue"
+  ],
+  "iphone 14 128gb purple": [
+    "iphone 14 128gb purple"
+  ],
+  "iphone 14 128gb red": [
+    "iphone 14 128gb red"
+  ],
+  "iphone 14 128gb white": [
+    "iphone 14 128gb white"
+  ],
+  "iphone 14 128gb yellow": [
+    "iphone 14 128gb yellow"
+  ],
+  "iphone 14 256gb black": [
+    "iphone 14 256gb black"
+  ],
+  "iphone 14 256gb blue": [
+    "iphone 14 256gb blue"
+  ],
+  "iphone 14 256gb purple": [
+    "iphone 14 256gb purple"
+  ],
+  "iphone 14 256gb red": [
+    "iphone 14 256gb red"
+  ],
+  "iphone 14 256gb white": [
+    "iphone 14 256gb white"
+  ],
+  "iphone 14 256gb yellow": [
+    "iphone 14 256gb yellow"
+  ],
+  "iphone 14 512gb black": [
+    "iphone 14 512gb black"
+  ],
+  "iphone 14 512gb blue": [
+    "iphone 14 512gb blue"
+  ],
+  "iphone 14 512gb purple": [
+    "iphone 14 512gb purple"
+  ],
+  "iphone 14 512gb red": [
+    "iphone 14 512gb red"
+  ],
+  "iphone 14 512gb white": [
+    "iphone 14 512gb white"
+  ],
+  "iphone 14 plus 128 black": [
+    "iphone 14 plus 128 black"
+  ],
+  "iphone 14 plus 128 blue": [
+    "iphone 14 plus 128 blue"
+  ],
+  "iphone 14 plus 128 purple": [
+    "iphone 14 plus 128 purple"
+  ],
+  "iphone 14 plus 128 red": [
+    "iphone 14 plus 128 red"
+  ],
+  "iphone 14 plus 128 white": [
+    "iphone 14 plus 128 white"
+  ],
+  "iphone 14 plus 256 black": [
+    "iphone 14 plus 256 black"
+  ],
+  "iphone 14 plus 256 blue": [
+    "iphone 14 plus 256 blue"
+  ],
+  "iphone 14 plus 256 purple": [
+    "iphone 14 plus 256 purple"
+  ],
+  "iphone 14 plus 256 red": [
+    "iphone 14 plus 256 red"
+  ],
+  "iphone 14 plus 256 white": [
+    "iphone 14 plus 256 white"
+  ],
+  "iphone 14 plus 512 black": [
+    "iphone 14 plus 512 black"
+  ],
+  "iphone 14 plus 512 blue": [
+    "iphone 14 plus 512 blue"
+  ],
+  "iphone 14 plus 512 purple": [
+    "iphone 14 plus 512 purple"
+  ],
+  "iphone 14 plus 512 red": [
+    "iphone 14 plus 512 red"
+  ],
+  "iphone 14 plus 512 white": [
+    "iphone 14 plus 512 white"
+  ],
+  "iphone 14 plus 512 yellow": [
+    "iphone 14 plus 512 yellow"
+  ],
+  "iphone 14 pro 1 tb graphite": [
+    "iphone 14 pro 1 tb graphite"
+  ],
+  "iphone 14 pro 1 tb silver": [
+    "iphone 14 pro 1 tb silver"
+  ],
+  "iphone 14 pro 128 gold": [
+    "iphone 14 pro 128 gold"
+  ],
+  "iphone 14 pro 128 graphite": [
+    "iphone 14 pro 128 graphite"
+  ],
+  "iphone 14 pro 128 purple": [
+    "iphone 14 pro 128 purple"
+  ],
+  "iphone 14 pro 128 silver": [
+    "iphone 14 pro 128 silver"
+  ],
+  "iphone 14 pro 1tb gold": [
+    "iphone 14 pro 1tb gold"
+  ],
+  "iphone 14 pro 1tb purple": [
+    "iphone 14 pro 1tb purple"
+  ],
+  "iphone 14 pro 256 gold": [
+    "iphone 14 pro 256 gold"
+  ],
+  "iphone 14 pro 256 graphite": [
+    "iphone 14 pro 256 graphite"
+  ],
+  "iphone 14 pro 256 purple": [
+    "iphone 14 pro 256 purple"
+  ],
+  "iphone 14 pro 256 silver": [
+    "iphone 14 pro 256 silver"
+  ],
+  "iphone 14 pro 512 gold": [
+    "iphone 14 pro 512 gold"
+  ],
+  "iphone 14 pro 512 graphite": [
+    "iphone 14 pro 512 graphite"
+  ],
+  "iphone 14 pro 512 purple": [
+    "iphone 14 pro 512 purple"
+  ],
+  "iphone 14 pro 512 silver": [
+    "iphone 14 pro 512 silver"
+  ],
+  "iphone 14 pro max 128 gold": [
+    "iphone 14 pro max 128 gold"
+  ],
+  "iphone 14 pro max 128 graphite": [
+    "iphone 14 pro max 128 graphite"
+  ],
+  "iphone 14 pro max 128 purple": [
+    "iphone 14 pro max 128 purple"
+  ],
+  "iphone 14 pro max 128 silver": [
+    "iphone 14 pro max 128 silver"
+  ],
+  "iphone 14 pro max 1tb gold": [
+    "iphone 14 pro max 1tb gold"
+  ],
+  "iphone 14 pro max 1tb graphite": [
+    "iphone 14 pro max 1tb graphite"
+  ],
+  "iphone 14 pro max 1tb purple": [
+    "iphone 14 pro max 1tb purple"
+  ],
+  "iphone 14 pro max 1tb silver": [
+    "iphone 14 pro max 1tb silver"
+  ],
+  "iphone 14 pro max 256 gold": [
+    "iphone 14 pro max 256 gold"
+  ],
+  "iphone 14 pro max 256 graphite": [
+    "iphone 14 pro max 256 graphite"
+  ],
+  "iphone 14 pro max 256 purple": [
+    "iphone 14 pro max 256 purple"
+  ],
+  "iphone 14 pro max 256 silver": [
+    "iphone 14 pro max 256 silver"
+  ],
+  "iphone 14 pro max 512 gold": [
+    "iphone 14 pro max 512 gold"
+  ],
+  "iphone 14 pro max 512 graphite": [
+    "iphone 14 pro max 512 graphite"
+  ],
+  "iphone 14 pro max 512 purple": [
+    "iphone 14 pro max 512 purple"
+  ],
+  "iphone 14 pro max 512 silver": [
+    "iphone 14 pro max 512 silver"
+  ],
+  "iphone 15 128 black": [
+    "iphone 15 128 black"
+  ],
+  "iphone 15 128 blue": [
+    "iphone 15 128 blue"
+  ],
+  "iphone 15 128 green": [
+    "iphone 15 128 green"
+  ],
+  "iphone 15 128 pink": [
+    "iphone 15 128 pink"
+  ],
+  "iphone 15 128 yellow": [
+    "iphone 15 128 yellow"
+  ],
+  "iphone 15 256 black": [
+    "iphone 15 256 black"
+  ],
+  "iphone 15 256 blue": [
+    "iphone 15 256 blue"
+  ],
+  "iphone 15 256 green": [
+    "iphone 15 256 green"
+  ],
+  "iphone 15 256 pink": [
+    "iphone 15 256 pink"
+  ],
+  "iphone 15 256 yellow": [
+    "iphone 15 256 yellow"
+  ],
+  "iphone 15 512 black": [
+    "iphone 15 512 black"
+  ],
+  "iphone 15 512 blue": [
+    "iphone 15 512 blue"
+  ],
+  "iphone 15 512 green": [
+    "iphone 15 512 green"
+  ],
+  "iphone 15 512 pink": [
+    "iphone 15 512 pink"
+  ],
+  "iphone 15 512 yellow": [
+    "iphone 15 512 yellow"
+  ],
+  "iphone 15 plus 128 black": [
+    "iphone 15 plus 128 black"
+  ],
+  "iphone 15 plus 128 blue": [
+    "iphone 15 plus 128 blue"
+  ],
+  "iphone 15 plus 128 green": [
+    "iphone 15 plus 128 green"
+  ],
+  "iphone 15 plus 128 pink": [
+    "iphone 15 plus 128 pink"
+  ],
+  "iphone 15 plus 128 yellow": [
+    "iphone 15 plus 128 yellow"
+  ],
+  "iphone 15 plus 256 black": [
+    "iphone 15 plus 256 black"
+  ],
+  "iphone 15 plus 256 blue": [
+    "iphone 15 plus 256 blue"
+  ],
+  "iphone 15 plus 256 green": [
+    "iphone 15 plus 256 green"
+  ],
+  "iphone 15 plus 256 pink": [
+    "iphone 15 plus 256 pink"
+  ],
+  "iphone 15 plus 256 yellow": [
+    "iphone 15 plus 256 yellow"
+  ],
+  "iphone 15 plus 512 black": [
+    "iphone 15 plus 512 black"
+  ],
+  "iphone 15 plus 512 blue": [
+    "iphone 15 plus 512 blue"
+  ],
+  "iphone 15 plus 512 green": [
+    "iphone 15 plus 512 green"
+  ],
+  "iphone 15 plus 512 pink": [
+    "iphone 15 plus 512 pink"
+  ],
+  "iphone 15 plus 512 yellow": [
+    "iphone 15 plus 512 yellow"
+  ],
+  "iphone 15 pro 128 black": [
+    "iphone 15 pro 128 black"
+  ],
+  "iphone 15 pro 128 blue": [
+    "iphone 15 pro 128 blue"
+  ],
+  "iphone 15 pro 128 natural": [
+    "iphone 15 pro 128 natural"
+  ],
+  "iphone 15 pro 128 white": [
+    "iphone 15 pro 128 white"
+  ],
+  "iphone 15 pro 1tb black": [
+    "iphone 15 pro 1tb black"
+  ],
+  "iphone 15 pro 1tb blue": [
+    "iphone 15 pro 1tb blue"
+  ],
+  "iphone 15 pro 1tb natural": [
+    "iphone 15 pro 1tb natural"
+  ],
+  "iphone 15 pro 1tb white": [
+    "iphone 15 pro 1tb white"
+  ],
+  "iphone 15 pro 256 black": [
+    "iphone 15 pro 256 black"
+  ],
+  "iphone 15 pro 256 blue": [
+    "iphone 15 pro 256 blue"
+  ],
+  "iphone 15 pro 256 natural": [
+    "iphone 15 pro 256 natural"
+  ],
+  "iphone 15 pro 256 white": [
+    "iphone 15 pro 256 white"
+  ],
+  "iphone 15 pro 512 black": [
+    "iphone 15 pro 512 black"
+  ],
+  "iphone 15 pro 512 blue": [
+    "iphone 15 pro 512 blue"
+  ],
+  "iphone 15 pro 512 natural": [
+    "iphone 15 pro 512 natural"
+  ],
+  "iphone 15 pro 512 white": [
+    "iphone 15 pro 512 white"
+  ],
+  "iphone 15 pro max 1tb black": [
+    "iphone 15 pro max 1tb black"
+  ],
+  "iphone 15 pro max 1tb blue": [
+    "iphone 15 pro max 1tb blue"
+  ],
+  "iphone 15 pro max 1tb natural": [
+    "iphone 15 pro max 1tb natural"
+  ],
+  "iphone 15 pro max 1tb white": [
+    "iphone 15 pro max 1tb white"
+  ],
+  "iphone 15 pro max 256 black": [
+    "iphone 15 pro max 256 black"
+  ],
+  "iphone 15 pro max 256 blue": [
+    "iphone 15 pro max 256 blue"
+  ],
+  "iphone 15 pro max 256 natural": [
+    "iphone 15 pro max 256 natural"
+  ],
+  "iphone 15 pro max 256 white": [
+    "iphone 15 pro max 256 white"
+  ],
+  "iphone 15 pro max 512 black": [
+    "iphone 15 pro max 512 black"
+  ],
+  "iphone 15 pro max 512 blue": [
+    "iphone 15 pro max 512 blue"
+  ],
+  "iphone 15 pro max 512 natural": [
+    "iphone 15 pro max 512 natural"
+  ],
+  "iphone 15 pro max 512 white": [
+    "iphone 15 pro max 512 white"
+  ],
+  "iphone se 2022 128 black": [
+    "iphone se 2022 128 black"
+  ],
+  "iphone se 2022 128 red": [
+    "iphone se 2022 128 red"
+  ],
+  "iphone se 2022 128 white": [
+    "iphone se 2022 128 white"
+  ],
+  "iphone se 2022 256 black": [
+    "iphone se 2022 256 black"
+  ],
+  "iphone se 2022 256 red": [
+    "iphone se 2022 256 red"
+  ],
+  "iphone se 2022 256 white": [
+    "iphone se 2022 256 white"
+  ],
+  "iphone se 2022 64 black": [
+    "iphone se 2022 64 black"
+  ],
+  "iphone se 2022 64 red": [
+    "iphone se 2022 64 red"
+  ],
+  "iphone se 2022 64 white": [
+    "iphone se 2022 64 white"
+  ],
+  "macbook air 15 m2 256gb midnight": [
+    "macbook air 15 m2 256gb midnight"
+  ],
+  "macbook air 15 m2 256gb silver": [
+    "macbook air 15 m2 256gb silver"
+  ],
+  "macbook air 15 m2 256gb space gray": [
+    "macbook air 15 m2 256gb space gray"
+  ],
+  "macbook air 15 m2 256gb starlight": [
+    "macbook air 15 m2 256gb starlight"
+  ],
+  "macbook air 15 m2 512gb midnight": [
+    "macbook air 15 m2 512gb midnight"
+  ],
+  "macbook air 15 m2 512gb silver": [
+    "macbook air 15 m2 512gb silver"
+  ],
+  "macbook air 15 m2 512gb space gray": [
+    "macbook air 15 m2 512gb space gray"
+  ],
+  "macbook air 15 m2 512gb starlight": [
+    "macbook air 15 m2 512gb starlight"
+  ],
   "macbook air 15 m3 (2023) 256gb midnight": [
     "macbook air 15 m3 (2023) 256gb midnight"
   ],
@@ -332,18 +934,42 @@
   "macbook air 15 m3 (2023) 512gb space gray": [
     "macbook air 15 m3 (2023) 512gb space gray"
   ],
-  "macbook air m1 256gb gold": ["macbook air m1 256gb gold"],
-  "macbook air m1 256gb silver": ["macbook air m1 256gb silver"],
-  "macbook air m1 256gb space gray": ["macbook air m1 256gb space gray"],
-  "macbook air m1 512gb gold": ["macbook air m1 512gb gold"],
-  "macbook air m1 512gb silver": ["macbook air m1 512gb silver"],
-  "macbook air m1 512gb space gray": ["macbook air m1 512gb space gray"],
-  "macbook air m2 256gb midnight": ["macbook air m2 256gb midnight"],
-  "macbook air m2 256gb silver": ["macbook air m2 256gb silver"],
-  "macbook air m2 256gb space gray": ["macbook air m2 256gb space gray"],
-  "macbook air m2 256gb starlight": ["macbook air m2 256gb starlight"],
-  "macbook mr7j3 m3 silver 512gb": ["macbook mr7j3 m3 silver 512gb"],
-  "macbook mr7k3 m3 silver 1tb": ["macbook mr7k3 m3 silver 1tb"],
+  "macbook air m1 256gb gold": [
+    "macbook air m1 256gb gold"
+  ],
+  "macbook air m1 256gb silver": [
+    "macbook air m1 256gb silver"
+  ],
+  "macbook air m1 256gb space gray": [
+    "macbook air m1 256gb space gray"
+  ],
+  "macbook air m1 512gb gold": [
+    "macbook air m1 512gb gold"
+  ],
+  "macbook air m1 512gb silver": [
+    "macbook air m1 512gb silver"
+  ],
+  "macbook air m1 512gb space gray": [
+    "macbook air m1 512gb space gray"
+  ],
+  "macbook air m2 256gb midnight": [
+    "macbook air m2 256gb midnight"
+  ],
+  "macbook air m2 256gb silver": [
+    "macbook air m2 256gb silver"
+  ],
+  "macbook air m2 256gb space gray": [
+    "macbook air m2 256gb space gray"
+  ],
+  "macbook air m2 256gb starlight": [
+    "macbook air m2 256gb starlight"
+  ],
+  "macbook mr7j3 m3 silver 512gb": [
+    "macbook mr7j3 m3 silver 512gb"
+  ],
+  "macbook mr7k3 m3 silver 1tb": [
+    "macbook mr7k3 m3 silver 1tb"
+  ],
   "macbook mrw13 16 m3 pro(18) black 512gb": [
     "macbook mrw13 16 m3 pro(18) black 512gb"
   ],
@@ -362,149 +988,427 @@
   "macbook mrw73 m3 max silver 1tb(1430)": [
     "macbook mrw73 m3 max silver 1tb(1430)"
   ],
-  "macbook mrx33 m3 pro black 512": ["macbook mrx33 m3 pro black 512"],
-  "macbook mrx33 m3 pro black 51gb": ["macbook mrx33 m3 pro black 51gb"],
-  "macbook mrx43 m3 pro black 1tb": ["macbook mrx43 m3 pro black 1tb"],
-  "macbook mrx53 m3 max black 1tb": ["macbook mrx53 m3 max black 1tb"],
-  "macbook mrx63 m3 pro silver 512gb": ["macbook mrx63 m3 pro silver 512gb"],
-  "macbook mrx73 m3 pro silver 1tb": ["macbook mrx73 m3 pro silver 1tb"],
-  "macbook mrx83 m3 max silver 1tb": ["macbook mrx83 m3 max silver 1tb"],
-  "macbook mtl73 m3 space gray 512gb": ["macbook mtl73 m3 space gray 512gb"],
-  "macbook mtl83 m3 space gray 1tb": ["macbook mtl83 m3 space gray 1tb"],
+  "macbook mrx33 m3 pro black 512": [
+    "macbook mrx33 m3 pro black 512"
+  ],
+  "macbook mrx33 m3 pro black 51gb": [
+    "macbook mrx33 m3 pro black 51gb"
+  ],
+  "macbook mrx43 m3 pro black 1tb": [
+    "macbook mrx43 m3 pro black 1tb"
+  ],
+  "macbook mrx53 m3 max black 1tb": [
+    "macbook mrx53 m3 max black 1tb"
+  ],
+  "macbook mrx63 m3 pro silver 512gb": [
+    "macbook mrx63 m3 pro silver 512gb"
+  ],
+  "macbook mrx73 m3 pro silver 1tb": [
+    "macbook mrx73 m3 pro silver 1tb"
+  ],
+  "macbook mrx83 m3 max silver 1tb": [
+    "macbook mrx83 m3 max silver 1tb"
+  ],
+  "macbook mtl73 m3 space gray 512gb": [
+    "macbook mtl73 m3 space gray 512gb"
+  ],
+  "macbook mtl83 m3 space gray 1tb": [
+    "macbook mtl83 m3 space gray 1tb"
+  ],
   "macbook muw63 m3 max 16 black 1tb(1640)": [
     "macbook muw63 m3 max 16 black 1tb(1640)"
   ],
   "macbook muw73 m3 max 16 silver 1tb(1640)": [
     "macbook muw73 m3 max 16 silver 1tb(1640)"
   ],
-  "macbook pro 14 m2 pro silver": ["macbook pro 14 m2 pro silver"],
-  "macbook pro 14 m2 pro spacegray": ["macbook pro 14 m2 pro spacegray"],
-  "oculus 3 512gb": ["oculus 3 512gb"],
-  "s23+ 8/256 black": ["s23+ 8/256 black"],
-  "s23+ 8/256 cream": ["s23+ 8/256 cream"],
-  "s23+ 8/256 green": ["s23+ 8/256 green"],
-  "s23+ 8/256 lavanda": ["s23+ 8/256 lavanda"],
-  "s23+ 8/512 black": ["s23+ 8/512 black"],
-  "s23+ 8/512 cream": ["s23+ 8/512 cream"],
-  "s23+ 8/512 green": ["s23+ 8/512 green"],
-  "s23+ 8/512 lavanda": ["s23+ 8/512 lavanda"],
-  "s24 8/128 black": ["s24 8/128 black"],
-  "s24 8/128 gray": ["s24 8/128 gray"],
-  "s24 8/128 violet": ["s24 8/128 violet"],
-  "s24 8/128 yellow": ["s24 8/128 yellow"],
-  "s24 8/256 black": ["s24 8/256 black"],
-  "s24 8/256 gray": ["s24 8/256 gray"],
-  "s24 8/256 violet": ["s24 8/256 violet"],
-  "s24 8/256 yellow": ["s24 8/256 yellow"],
-  "s24 ultra 12/1tb black": ["s24 ultra 12/1tb black"],
-  "s24 ultra 12/1tb gray": ["s24 ultra 12/1tb gray"],
-  "s24 ultra 12/1tb velvet": ["s24 ultra 12/1tb velvet"],
-  "s24 ultra 12/1tb yellow": ["s24 ultra 12/1tb yellow"],
-  "s24 ultra 12/256 black": ["s24 ultra 12/256 black"],
-  "s24 ultra 12/256 gray": ["s24 ultra 12/256 gray"],
-  "s24 ultra 12/256 velvet": ["s24 ultra 12/256 velvet"],
-  "s24 ultra 12/256 yellow": ["s24 ultra 12/256 yellow"],
-  "s24 ultra 12/512 black": ["s24 ultra 12/512 black"],
-  "s24 ultra 12/512 gray": ["s24 ultra 12/512 gray"],
-  "s24 ultra 12/512 velvet": ["s24 ultra 12/512 velvet"],
-  "s24 ultra 12/512 yellow": ["s24 ultra 12/512 yellow"],
-  "s24+ 12/256 black": ["s24+ 12/256 black"],
-  "s24+ 12/256 gray": ["s24+ 12/256 gray"],
-  "s24+ 12/256 velvet": ["s24+ 12/256 velvet"],
-  "s24+ 12/256 yellow": ["s24+ 12/256 yellow"],
-  "s24+ 12/512 black": ["s24+ 12/512 black"],
-  "s24+ 12/512 gray": ["s24+ 12/512 gray"],
-  "s24+ 12/512 velvet": ["s24+ 12/512 velvet"],
-  "s24+ 12/512 yellow": ["s24+ 12/512 yellow"],
-  "s9 blue 41mm m/l": ["s9 blue 41mm m/l"],
-  "s9 blue 41mm s/m": ["s9 blue 41mm s/m"],
-  "s9 blue 41mm trail m/l": ["s9 blue 41mm trail m/l"],
-  "s9 blue 41mm trail s/m": ["s9 blue 41mm trail s/m"],
-  "s9 blue 45mm m/l": ["s9 blue 45mm m/l"],
-  "s9 blue 45mm s/m": ["s9 blue 45mm s/m"],
-  "s9 blue 45mm trail m/l": ["s9 blue 45mm trail m/l"],
-  "s9 blue 45mm trail s/m": ["s9 blue 45mm trail s/m"],
-  "s9 midnight 41mm m/l": ["s9 midnight 41mm m/l"],
-  "s9 midnight 41mm s/m": ["s9 midnight 41mm s/m"],
-  "s9 midnight 41mm trail m/l": ["s9 midnight 41mm trail m/l"],
-  "s9 midnight 41mm trail s/m": ["s9 midnight 41mm trail s/m"],
-  "s9 midnight 45mm  s/m": ["s9 midnight 45mm  s/m"],
-  "s9 midnight 45mm m/l": ["s9 midnight 45mm m/l"],
-  "s9 midnight 45mm trail m/l": ["s9 midnight 45mm trail m/l"],
-  "s9 midnight 45mm trail s/m": ["s9 midnight 45mm trail s/m"],
-  "s9 pink 41mm m/l": ["s9 pink 41mm m/l"],
-  "s9 pink 41mm s/m": ["s9 pink 41mm s/m"],
-  "s9 pink 41mm trail m/l": ["s9 pink 41mm trail m/l"],
-  "s9 pink 41mm trail s/m": ["s9 pink 41mm trail s/m"],
-  "s9 pink 45mm  s/m": ["s9 pink 45mm  s/m"],
-  "s9 pink 45mm m/l": ["s9 pink 45mm m/l"],
-  "s9 pink 45mm trail m/l": ["s9 pink 45mm trail m/l"],
-  "s9 pink 45mm trail s/m": ["s9 pink 45mm trail s/m"],
-  "s9 red 41mm m/l": ["s9 red 41mm m/l"],
-  "s9 red 41mm s/m": ["s9 red 41mm s/m"],
-  "s9 red 45mm m/l": ["s9 red 45mm m/l"],
-  "s9 red 45mm s/m": ["s9 red 45mm s/m"],
-  "s9 starlight 41mm m/l": ["s9 starlight 41mm m/l"],
-  "s9 starlight 41mm s/m": ["s9 starlight 41mm s/m"],
-  "s9 starlight 41mm trail m/l": ["s9 starlight 41mm trail m/l"],
-  "s9 starlight 41mm trail s/m": ["s9 starlight 41mm trail s/m"],
-  "s9 starlight 45mm  m/l": ["s9 starlight 45mm  m/l"],
-  "s9 starlight 45mm s/m": ["s9 starlight 45mm s/m"],
-  "s9 starlight 45mm trail m/l": ["s9 starlight 45mm trail m/l"],
-  "s9 starlight 45mm trail s/m": ["s9 starlight 45mm trail s/m"],
-  "ultra 2 alpine blue l": ["ultra 2 alpine blue l"],
-  "ultra 2 alpine blue m": ["ultra 2 alpine blue m"],
-  "ultra 2 alpine blue s": ["ultra 2 alpine blue s"],
-  "ultra 2 alpine indigo l": ["ultra 2 alpine indigo l"],
-  "ultra 2 alpine indigo m": ["ultra 2 alpine indigo m"],
-  "ultra 2 alpine olive l": ["ultra 2 alpine olive l"],
-  "ultra 2 alpine olive m": ["ultra 2 alpine olive m"],
-  "ultra 2 alpine olive s": ["ultra 2 alpine olive s"],
-  "ultra 2 ocean blue": ["ultra 2 ocean blue"],
-  "ultra 2 ocean orange": ["ultra 2 ocean orange"],
-  "ultra 2 ocean white": ["ultra 2 ocean white"],
-  "ultra 2 trail blue m/l": ["ultra 2 trail blue m/l"],
-  "ultra 2 trail blue s/m": ["ultra 2 trail blue s/m"],
-  "ultra 2 trail green m/l": ["ultra 2 trail green m/l"],
-  "ultra 2 trail green s/m": ["ultra 2 trail green s/m"],
-  "ultra 2 trail orange m/l": ["ultra 2 trail orange m/l"],
-  "ultra 2 trail orange s/m": ["ultra 2 trail orange s/m"],
-  "ultra alpine green l": ["ultra alpine green l"],
-  "ultra alpine green m": ["ultra alpine green m"],
-  "ultra alpine green s": ["ultra alpine green s"],
-  "ultra alpine orange l": ["ultra alpine orange l"],
-  "ultra alpine orange m": ["ultra alpine orange m"],
-  "ultra alpine orange s": ["ultra alpine orange s"],
-  "ultra alpine starlight l": ["ultra alpine starlight l"],
-  "ultra alpine starlight m": ["ultra alpine starlight m"],
-  "ultra alpine starlight s": ["ultra alpine starlight s"],
-  "ultra ocean midnight": ["ultra ocean midnight"],
-  "ultra ocean white": ["ultra ocean white"],
-  "ultra ocean yellow": ["ultra ocean yellow"],
-  "ultra trail black m/l": ["ultra trail black m/l"],
-  "ultra trail black s/m": ["ultra trail black s/m"],
-  "ultra trail blue gray m/l": ["ultra trail blue gray m/l"],
-  "ultra trail blue gray s/m": ["ultra trail blue gray s/m"],
-  "ultra trail yellow m/l": ["ultra trail yellow m/l"],
-  "ultra trail yellow s/m": ["ultra trail yellow s/m"],
-  "watch s7 black": ["watch s7 black"],
-  "watch s7 blue": ["watch s7 blue"],
-  "watch s7 green": ["watch s7 green"],
-  "watch s7 silver": ["watch s7 silver"],
-  "watch s8 red 41mm": ["watch s8 red 41mm"],
-  "watch s8 red 45mm": ["watch s8 red 45mm"],
-  "watch s8 silver 41mm": ["watch s8 silver 41mm"],
-  "watch s8 silver 45mm": ["watch s8 silver 45mm"],
-  "watch s8 spacegray 41mm": ["watch s8 spacegray 41mm"],
-  "watch s8 spacegray 45mm": ["watch s8 spacegray 45mm"],
-  "watch s8 starlight 41mm": ["watch s8 starlight 41mm"],
-  "watch s8 starlight 45mm": ["watch s8 starlight 45mm"],
-  "watch se2 gray 40mm (2022)": ["watch se2 gray 40mm (2022)"],
-  "watch se2 gray 44mm (2022)": ["watch se2 gray 44mm (2022)"],
-  "watch se2 silver 40mm (2022)": ["watch se2 silver 40mm (2022)"],
-  "watch se2 silver 44mm (2022)": ["watch se2 silver 44mm (2022)"],
-  "watch se2 starlight 40mm (2022)": ["watch se2 starlight 40mm (2022)"],
-  "watch se2 starlight 44mm (2023)": ["watch se2 starlight 44mm (2023)"],
-  "xbox series s": ["xbox series s"],
-  "xbox series x": ["xbox series x"]
+  "macbook pro 14 m2 pro silver": [
+    "macbook pro 14 m2 pro silver"
+  ],
+  "macbook pro 14 m2 pro spacegray": [
+    "macbook pro 14 m2 pro spacegray"
+  ],
+  "oculus 3 512gb": [
+    "oculus 3 512gb"
+  ],
+  "s23+ 8/256 black": [
+    "s23+ 8/256 black"
+  ],
+  "s23+ 8/256 cream": [
+    "s23+ 8/256 cream"
+  ],
+  "s23+ 8/256 green": [
+    "s23+ 8/256 green"
+  ],
+  "s23+ 8/256 lavanda": [
+    "s23+ 8/256 lavanda"
+  ],
+  "s23+ 8/512 black": [
+    "s23+ 8/512 black"
+  ],
+  "s23+ 8/512 cream": [
+    "s23+ 8/512 cream"
+  ],
+  "s23+ 8/512 green": [
+    "s23+ 8/512 green"
+  ],
+  "s23+ 8/512 lavanda": [
+    "s23+ 8/512 lavanda"
+  ],
+  "s24 8/128 black": [
+    "s24 8/128 black"
+  ],
+  "s24 8/128 gray": [
+    "s24 8/128 gray"
+  ],
+  "s24 8/128 violet": [
+    "s24 8/128 violet"
+  ],
+  "s24 8/128 yellow": [
+    "s24 8/128 yellow"
+  ],
+  "s24 8/256 black": [
+    "s24 8/256 black"
+  ],
+  "s24 8/256 gray": [
+    "s24 8/256 gray"
+  ],
+  "s24 8/256 violet": [
+    "s24 8/256 violet"
+  ],
+  "s24 8/256 yellow": [
+    "s24 8/256 yellow"
+  ],
+  "s24 ultra 12/1tb black": [
+    "s24 ultra 12/1tb black"
+  ],
+  "s24 ultra 12/1tb gray": [
+    "s24 ultra 12/1tb gray"
+  ],
+  "s24 ultra 12/1tb velvet": [
+    "s24 ultra 12/1tb velvet"
+  ],
+  "s24 ultra 12/1tb yellow": [
+    "s24 ultra 12/1tb yellow"
+  ],
+  "s24 ultra 12/256 black": [
+    "s24 ultra 12/256 black"
+  ],
+  "s24 ultra 12/256 gray": [
+    "s24 ultra 12/256 gray"
+  ],
+  "s24 ultra 12/256 velvet": [
+    "s24 ultra 12/256 velvet"
+  ],
+  "s24 ultra 12/256 yellow": [
+    "s24 ultra 12/256 yellow"
+  ],
+  "s24 ultra 12/512 black": [
+    "s24 ultra 12/512 black"
+  ],
+  "s24 ultra 12/512 gray": [
+    "s24 ultra 12/512 gray"
+  ],
+  "s24 ultra 12/512 velvet": [
+    "s24 ultra 12/512 velvet"
+  ],
+  "s24 ultra 12/512 yellow": [
+    "s24 ultra 12/512 yellow"
+  ],
+  "s24+ 12/256 black": [
+    "s24+ 12/256 black"
+  ],
+  "s24+ 12/256 gray": [
+    "s24+ 12/256 gray"
+  ],
+  "s24+ 12/256 velvet": [
+    "s24+ 12/256 velvet"
+  ],
+  "s24+ 12/256 yellow": [
+    "s24+ 12/256 yellow"
+  ],
+  "s24+ 12/512 black": [
+    "s24+ 12/512 black"
+  ],
+  "s24+ 12/512 gray": [
+    "s24+ 12/512 gray"
+  ],
+  "s24+ 12/512 velvet": [
+    "s24+ 12/512 velvet"
+  ],
+  "s24+ 12/512 yellow": [
+    "s24+ 12/512 yellow"
+  ],
+  "s9 blue 41mm m/l": [
+    "s9 blue 41mm m/l"
+  ],
+  "s9 blue 41mm s/m": [
+    "s9 blue 41mm s/m"
+  ],
+  "s9 blue 41mm trail m/l": [
+    "s9 blue 41mm trail m/l"
+  ],
+  "s9 blue 41mm trail s/m": [
+    "s9 blue 41mm trail s/m"
+  ],
+  "s9 blue 45mm m/l": [
+    "s9 blue 45mm m/l"
+  ],
+  "s9 blue 45mm s/m": [
+    "s9 blue 45mm s/m"
+  ],
+  "s9 blue 45mm trail m/l": [
+    "s9 blue 45mm trail m/l"
+  ],
+  "s9 blue 45mm trail s/m": [
+    "s9 blue 45mm trail s/m"
+  ],
+  "s9 midnight 41mm m/l": [
+    "s9 midnight 41mm m/l"
+  ],
+  "s9 midnight 41mm s/m": [
+    "s9 midnight 41mm s/m"
+  ],
+  "s9 midnight 41mm trail m/l": [
+    "s9 midnight 41mm trail m/l"
+  ],
+  "s9 midnight 41mm trail s/m": [
+    "s9 midnight 41mm trail s/m"
+  ],
+  "s9 midnight 45mm  s/m": [
+    "s9 midnight 45mm  s/m"
+  ],
+  "s9 midnight 45mm m/l": [
+    "s9 midnight 45mm m/l"
+  ],
+  "s9 midnight 45mm trail m/l": [
+    "s9 midnight 45mm trail m/l"
+  ],
+  "s9 midnight 45mm trail s/m": [
+    "s9 midnight 45mm trail s/m"
+  ],
+  "s9 pink 41mm m/l": [
+    "s9 pink 41mm m/l"
+  ],
+  "s9 pink 41mm s/m": [
+    "s9 pink 41mm s/m"
+  ],
+  "s9 pink 41mm trail m/l": [
+    "s9 pink 41mm trail m/l"
+  ],
+  "s9 pink 41mm trail s/m": [
+    "s9 pink 41mm trail s/m"
+  ],
+  "s9 pink 45mm  s/m": [
+    "s9 pink 45mm  s/m"
+  ],
+  "s9 pink 45mm m/l": [
+    "s9 pink 45mm m/l"
+  ],
+  "s9 pink 45mm trail m/l": [
+    "s9 pink 45mm trail m/l"
+  ],
+  "s9 pink 45mm trail s/m": [
+    "s9 pink 45mm trail s/m"
+  ],
+  "s9 red 41mm m/l": [
+    "s9 red 41mm m/l"
+  ],
+  "s9 red 41mm s/m": [
+    "s9 red 41mm s/m"
+  ],
+  "s9 red 45mm m/l": [
+    "s9 red 45mm m/l"
+  ],
+  "s9 red 45mm s/m": [
+    "s9 red 45mm s/m"
+  ],
+  "s9 starlight 41mm m/l": [
+    "s9 starlight 41mm m/l"
+  ],
+  "s9 starlight 41mm s/m": [
+    "s9 starlight 41mm s/m"
+  ],
+  "s9 starlight 41mm trail m/l": [
+    "s9 starlight 41mm trail m/l"
+  ],
+  "s9 starlight 41mm trail s/m": [
+    "s9 starlight 41mm trail s/m"
+  ],
+  "s9 starlight 45mm  m/l": [
+    "s9 starlight 45mm  m/l"
+  ],
+  "s9 starlight 45mm s/m": [
+    "s9 starlight 45mm s/m"
+  ],
+  "s9 starlight 45mm trail m/l": [
+    "s9 starlight 45mm trail m/l"
+  ],
+  "s9 starlight 45mm trail s/m": [
+    "s9 starlight 45mm trail s/m"
+  ],
+  "ultra 2 alpine blue l": [
+    "ultra 2 alpine blue l"
+  ],
+  "ultra 2 alpine blue m": [
+    "ultra 2 alpine blue m"
+  ],
+  "ultra 2 alpine blue s": [
+    "ultra 2 alpine blue s"
+  ],
+  "ultra 2 alpine indigo l": [
+    "ultra 2 alpine indigo l"
+  ],
+  "ultra 2 alpine indigo m": [
+    "ultra 2 alpine indigo m"
+  ],
+  "ultra 2 alpine olive l": [
+    "ultra 2 alpine olive l"
+  ],
+  "ultra 2 alpine olive m": [
+    "ultra 2 alpine olive m"
+  ],
+  "ultra 2 alpine olive s": [
+    "ultra 2 alpine olive s"
+  ],
+  "ultra 2 ocean blue": [
+    "ultra 2 ocean blue"
+  ],
+  "ultra 2 ocean orange": [
+    "ultra 2 ocean orange"
+  ],
+  "ultra 2 ocean white": [
+    "ultra 2 ocean white"
+  ],
+  "ultra 2 trail blue m/l": [
+    "ultra 2 trail blue m/l"
+  ],
+  "ultra 2 trail blue s/m": [
+    "ultra 2 trail blue s/m"
+  ],
+  "ultra 2 trail green m/l": [
+    "ultra 2 trail green m/l"
+  ],
+  "ultra 2 trail green s/m": [
+    "ultra 2 trail green s/m"
+  ],
+  "ultra 2 trail orange m/l": [
+    "ultra 2 trail orange m/l"
+  ],
+  "ultra 2 trail orange s/m": [
+    "ultra 2 trail orange s/m"
+  ],
+  "ultra alpine green l": [
+    "ultra alpine green l"
+  ],
+  "ultra alpine green m": [
+    "ultra alpine green m"
+  ],
+  "ultra alpine green s": [
+    "ultra alpine green s"
+  ],
+  "ultra alpine orange l": [
+    "ultra alpine orange l"
+  ],
+  "ultra alpine orange m": [
+    "ultra alpine orange m"
+  ],
+  "ultra alpine orange s": [
+    "ultra alpine orange s"
+  ],
+  "ultra alpine starlight l": [
+    "ultra alpine starlight l"
+  ],
+  "ultra alpine starlight m": [
+    "ultra alpine starlight m"
+  ],
+  "ultra alpine starlight s": [
+    "ultra alpine starlight s"
+  ],
+  "ultra ocean midnight": [
+    "ultra ocean midnight"
+  ],
+  "ultra ocean white": [
+    "ultra ocean white"
+  ],
+  "ultra ocean yellow": [
+    "ultra ocean yellow"
+  ],
+  "ultra trail black m/l": [
+    "ultra trail black m/l"
+  ],
+  "ultra trail black s/m": [
+    "ultra trail black s/m"
+  ],
+  "ultra trail blue gray m/l": [
+    "ultra trail blue gray m/l"
+  ],
+  "ultra trail blue gray s/m": [
+    "ultra trail blue gray s/m"
+  ],
+  "ultra trail yellow m/l": [
+    "ultra trail yellow m/l"
+  ],
+  "ultra trail yellow s/m": [
+    "ultra trail yellow s/m"
+  ],
+  "watch s7 black": [
+    "watch s7 black"
+  ],
+  "watch s7 blue": [
+    "watch s7 blue"
+  ],
+  "watch s7 green": [
+    "watch s7 green"
+  ],
+  "watch s7 silver": [
+    "watch s7 silver"
+  ],
+  "watch s8 red 41mm": [
+    "watch s8 red 41mm"
+  ],
+  "watch s8 red 45mm": [
+    "watch s8 red 45mm"
+  ],
+  "watch s8 silver 41mm": [
+    "watch s8 silver 41mm"
+  ],
+  "watch s8 silver 45mm": [
+    "watch s8 silver 45mm"
+  ],
+  "watch s8 spacegray 41mm": [
+    "watch s8 spacegray 41mm"
+  ],
+  "watch s8 spacegray 45mm": [
+    "watch s8 spacegray 45mm"
+  ],
+  "watch s8 starlight 41mm": [
+    "watch s8 starlight 41mm"
+  ],
+  "watch s8 starlight 45mm": [
+    "watch s8 starlight 45mm"
+  ],
+  "watch se2 gray 40mm (2022)": [
+    "watch se2 gray 40mm (2022)"
+  ],
+  "watch se2 gray 44mm (2022)": [
+    "watch se2 gray 44mm (2022)"
+  ],
+  "watch se2 silver 40mm (2022)": [
+    "watch se2 silver 40mm (2022)"
+  ],
+  "watch se2 silver 44mm (2022)": [
+    "watch se2 silver 44mm (2022)"
+  ],
+  "watch se2 starlight 40mm (2022)": [
+    "watch se2 starlight 40mm (2022)"
+  ],
+  "watch se2 starlight 44mm (2023)": [
+    "watch se2 starlight 44mm (2023)"
+  ],
+  "xbox series s": [
+    "xbox series s"
+  ],
+  "xbox series x": [
+    "xbox series x"
+  ]
 }

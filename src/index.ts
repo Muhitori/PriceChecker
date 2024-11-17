@@ -2,28 +2,41 @@ import { Markup, Telegraf } from 'telegraf';
 import { VercelRequest, VercelResponse } from '@vercel/node';
 import { development, production } from './core';
 
-import { FmtString } from 'telegraf/typings/format';
-import { about } from './commands';
-import { dataUpdate } from './services/dataUpdate';
-import { getDataFromGoogleSheet } from './services/getDataFromGoogleSheet';
-import { postDataToGoogleSheet } from './services/postDataToGoogleSheet';
+import {
+  postDataToGoogleSheet,
+  setupTable,
+} from './services/postDataToGoogleSheet';
+import { namesToArticles } from './services/namesToArticles';
 
 const BOT_TOKEN = process.env.BOT_TOKEN || '';
 const ENVIRONMENT = process.env.NODE_ENV || '';
 
 const bot = new Telegraf(BOT_TOKEN);
-const userMessages = new Map<number, string>();
-bot.command('about', about());
-let message = '';
+let lastData = {};
+
+bot.command('setup', async (ctx) => {
+  try {
+    await setupTable();
+    ctx.reply(
+      'Таблица готова к использованию, перешлите сообщение с ценами для парсинга.',
+    );
+  } catch (error) {
+    ctx.reply('Error while setup table');
+  }
+});
+
+bot.command('start', async (ctx) => {
+  ctx.reply(
+    'Если таблица новая или меняли таблицу испульзуй /setup. В остальных случаях просто форварди сообщение с ценами.',
+  );
+});
 
 bot.on('message', async (ctx) => {
   try {
-    const chatId = ctx.message.chat.id;
-
     if (ctx.message && 'text' in ctx.message) {
-      message = ctx.message.text;
-      userMessages.set(chatId, message);
-      await ctx.reply(message as string | FmtString<string>);
+      lastData = namesToArticles(JSON.parse(ctx.message.text));
+      await ctx.reply(JSON.stringify(lastData));
+
       await ctx.replyWithHTML(
         'Если все ок, нажимай кнопку ниже',
         Markup.inlineKeyboard([
@@ -35,23 +48,18 @@ bot.on('message', async (ctx) => {
     console.error(err);
   }
 });
+
 bot.action('btn_accept', async (ctx) => {
   try {
-    const chatId = ctx.chat?.id;
-    if (chatId) {
-      // Retrieve the message from the cache
-      const message = userMessages.get(chatId);
-      const dataFromSheet = await getDataFromGoogleSheet();
-      if (message) {
-        // dataUpdate(dataFromSheet, message);
-        await postDataToGoogleSheet(message);
-        userMessages.delete(chatId); // Clean up the cache if necessary
-      }
+    if (Object.keys(lastData).length) {
+      await postDataToGoogleSheet(lastData);
+      lastData = {};
     }
   } catch (err) {
     console.error(err);
   }
 });
+
 //prod mode (Vercel)
 export const startVercel = async (req: VercelRequest, res: VercelResponse) => {
   await production(req, res, bot);
