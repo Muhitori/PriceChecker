@@ -25,6 +25,8 @@ const client = new OpenAI({
 
 let lastData = {};
 
+console.log(BOT_TOKEN, OPENAI_API_KEY, SHEET_ID);
+
 async function sendInChunks(ctx: any, message: string) {
   let chunkStart = 0;
 
