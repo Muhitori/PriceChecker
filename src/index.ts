@@ -70,6 +70,7 @@ bot.on('message', async (ctx) => {
     const filePath = path.join(__dirname, 'articles.txt');
     let articles: string[] = [];
 
+    console.log('start file reading');
     const data = fs.readFile(filePath, 'utf-8', async (err, data) => {
       if (err) {
         console.error('Error reading the file:', err);
@@ -78,6 +79,7 @@ bot.on('message', async (ctx) => {
 
       articles = data.split('\n').map((row) => row.trim());
 
+      console.log('articules parsing');
       if (!articles.length) {
         ctx.reply('Ошибка чтения артикулов.');
         return;
@@ -86,6 +88,7 @@ bot.on('message', async (ctx) => {
       if (ctx.message && 'text' in ctx.message) {
         ctx.reply('Обработка данных...');
 
+        console.log('before gpt');
         const chatCompletion = await client.chat.completions.create({
           messages: [
             {
@@ -95,6 +98,7 @@ bot.on('message', async (ctx) => {
           ],
           model: 'gpt-4o-mini',
         });
+        console.log('after gpt');
 
         if (!chatCompletion.choices[0].message.content) {
           await ctx.reply('Совпадений не найдено.');
@@ -103,10 +107,12 @@ bot.on('message', async (ctx) => {
 
         lastData = JSON.parse(chatCompletion.choices[0].message.content);
 
+        console.log('data saved');
         const userResponse = Object.entries(lastData)
           .map(([name, price]) => `<u>${name}</u>: <b>${price}</b>`)
           .join('\n');
 
+        console.log('after response');
         await sendInChunks(ctx, userResponse);
         await ctx.replyWithHTML(
           'Если все ок, нажимай кнопку ниже',
