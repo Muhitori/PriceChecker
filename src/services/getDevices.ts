@@ -10,7 +10,6 @@ export const getDevices = async () => {
     const devices = data
       .split(/\r?\n/)
       .filter((line: string) => line.trim() !== '');
-    console.log(devices);
 
     return devices;
   } catch (error) {
