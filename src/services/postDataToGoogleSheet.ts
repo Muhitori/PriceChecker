@@ -2,9 +2,7 @@ import { SHEET_ID } from '../constants/environment';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
 import { auth } from './auth';
 import axios from 'axios';
-
-import * as fs from 'fs';
-import * as path from 'path';
+import { getDevices } from './getDevices';
 
 const NAME_COLUMN = 'Артикул';
 const PRICE_COLUMN = 'Цена';
@@ -45,32 +43,24 @@ const autoResize = async (sheetId: string | number) => {
 
 export const setupTable = async () => {
   try {
-    const filePath = path.join(__dirname, '..', 'articles.txt');
-    const data = fs.readFile(filePath, 'utf-8', async (err, data) => {
-      if (err) {
-        console.error('Error reading the file:', err);
-        return;
-      }
+    const articles: string[] = await getDevices();
+    const doc = new GoogleSpreadsheet(SHEET_ID!, auth);
+    await doc.loadInfo();
 
-      const doc = new GoogleSpreadsheet(SHEET_ID!, auth);
-      await doc.loadInfo();
+    const sheet = doc.sheetsByIndex[0];
+    const sheetId = sheet.sheetId;
+    await sheet.clear();
 
-      const sheet = doc.sheetsByIndex[0];
-      const sheetId = sheet.sheetId;
-      await sheet.clear();
+    await sheet.setHeaderRow([NAME_COLUMN, PRICE_COLUMN]);
 
-      await sheet.setHeaderRow([NAME_COLUMN, PRICE_COLUMN]);
+    const rows = articles.map((article) => ({
+      [NAME_COLUMN]: article,
+      [PRICE_COLUMN]: 0,
+    }));
 
-      const articles = data.split('\n').map((row) => row.trim());
-      const rows = articles.map((article) => ({
-        [NAME_COLUMN]: article,
-        [PRICE_COLUMN]: 0,
-      }));
+    await sheet.addRows(rows);
 
-      await sheet.addRows(rows);
-
-      await autoResize(sheetId);
-    });
+    await autoResize(sheetId);
   } catch (error) {
     if (error instanceof Error) {
       console.error('Error posting data to Google Sheet:', error.message);

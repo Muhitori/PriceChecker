@@ -8,9 +8,8 @@ import {
   setupTable,
 } from './services/postDataToGoogleSheet';
 
-import * as fs from 'fs';
-import * as path from 'path';
 import { SHEET_ID } from './constants/environment';
+import { getDevices } from './services/getDevices';
 
 const BOT_TOKEN = process.env.BOT_TOKEN || '';
 const ENVIRONMENT = process.env.NODE_ENV || '';
@@ -24,8 +23,6 @@ const client = new OpenAI({
 });
 
 let lastData = {};
-
-console.log(BOT_TOKEN, OPENAI_API_KEY, SHEET_ID);
 
 async function sendInChunks(ctx: any, message: string) {
   let chunkStart = 0;
@@ -52,7 +49,9 @@ async function sendInChunks(ctx: any, message: string) {
 
 bot.command('setup', async (ctx) => {
   try {
+    ctx.reply('Проверяю артикулы...');
     await setupTable();
+
     ctx.reply(
       'Таблица готова к использованию, перешлите сообщение с ценами для парсинга.',
     );
@@ -69,61 +68,46 @@ bot.command('start', async (ctx) => {
 
 bot.on('message', async (ctx) => {
   try {
-    const filePath = path.join(__dirname, 'articles.txt');
-    let articles: string[] = [];
+    ctx.reply('Проверяю артикулы...');
+    const articles: string[] = await getDevices();
 
-    console.log('start file reading');
-    const data = fs.readFile(filePath, 'utf-8', async (err, data) => {
-      if (err) {
-        console.error('Error reading the file:', err);
+    if (!articles.length) {
+      ctx.reply('Ошибка чтения артикулов.');
+      return;
+    }
+
+    if (ctx.message && 'text' in ctx.message) {
+      ctx.reply('Обработка данных...');
+
+      const chatCompletion = await client.chat.completions.create({
+        messages: [
+          {
+            role: 'user',
+            content: `Im sending you message that contains devices and their prices ${ctx.message.text}, also im sending list of my device names ${articles.join(',')} please apply price of device to my device name and return them in json format {deviceName: price}. Count devices equal if their names at least ${ACCURACY}% compatible in lower case. Return result in json format only. Without markup. Without nesting, just plain {device: price}. Return valid json only. Ignore device if toy cant parse its value. Return only devices wit price. Ignore devices with null and unknown prices.`,
+          },
+        ],
+        model: 'gpt-4o-mini',
+      });
+
+      if (!chatCompletion.choices[0].message.content) {
+        await ctx.reply('Совпадений не найдено.');
         return;
       }
 
-      articles = data.split('\n').map((row) => row.trim());
+      lastData = JSON.parse(chatCompletion.choices[0].message.content);
 
-      console.log('articules parsing');
-      if (!articles.length) {
-        ctx.reply('Ошибка чтения артикулов.');
-        return;
-      }
+      const userResponse = Object.entries(lastData)
+        .map(([name, price]) => `<u>${name}</u>: <b>${price}</b>`)
+        .join('\n');
 
-      if (ctx.message && 'text' in ctx.message) {
-        ctx.reply('Обработка данных...');
-
-        console.log('before gpt');
-        const chatCompletion = await client.chat.completions.create({
-          messages: [
-            {
-              role: 'user',
-              content: `Im sending you message that contains devices and their prices ${ctx.message.text}, also im sending list of my device names ${articles.join(',')} please apply price of device to my device name and return them in json format {deviceName: price}. Count devices equal if their names at least ${ACCURACY}% compatible in lower case. Return result in json format only. Without markup. Without nesting, just plain {device: price}. Return valid json only. Ignore device if toy cant parse its value. Return only devices wit price. Ignore devices with null and unknown prices.`,
-            },
-          ],
-          model: 'gpt-4o-mini',
-        });
-        console.log('after gpt');
-
-        if (!chatCompletion.choices[0].message.content) {
-          await ctx.reply('Совпадений не найдено.');
-          return;
-        }
-
-        lastData = JSON.parse(chatCompletion.choices[0].message.content);
-
-        console.log('data saved');
-        const userResponse = Object.entries(lastData)
-          .map(([name, price]) => `<u>${name}</u>: <b>${price}</b>`)
-          .join('\n');
-
-        console.log('after response');
-        await sendInChunks(ctx, userResponse);
-        await ctx.replyWithHTML(
-          'Если все ок, нажимай кнопку ниже',
-          Markup.inlineKeyboard([
-            [Markup.button.callback('Подтвердить', 'btn_accept')],
-          ]),
-        );
-      }
-    });
+      await sendInChunks(ctx, userResponse);
+      await ctx.replyWithHTML(
+        'Если все ок, нажимай кнопку ниже',
+        Markup.inlineKeyboard([
+          [Markup.button.callback('Подтвердить', 'btn_accept')],
+        ]),
+      );
+    }
   } catch (err) {
     ctx.reply('Ошибка');
     console.error(err);
